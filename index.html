@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soapmakers</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -18,13 +19,47 @@
     </header>
     
     <section>
-        <h2>About Us</h2>
-        <p>Welcome to Soapmakers! We specialize in crafting high-quality, artisanal soaps using natural ingredients.</p>
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+            
+            <button type="submit">Send</button>
+        </form>
     </section>
 
-    <section>
-        <h2>Contact Us</h2>
-        <p>Email: <a href="mailto:contact@soapmakers.store">contact@soapmakers.store</a></p>
-    </section>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("your_user_id"); // Replace "your_user_id" with your EmailJS User ID
+
+            document.getElementById("contactForm").addEventListener("submit", function(event) {
+                event.preventDefault(); // Prevent the form from submitting normally
+
+                // Get form data
+                var formData = {
+                    name: document.getElementById("name").value,
+                    email: document.getElementById("email").value,
+                    message: document.getElementById("message").value
+                };
+
+                // Send email using EmailJS
+                emailjs.send("your_service_id", "your_template_id", formData)
+                    .then(function(response) {
+                        console.log("Email sent successfully", response);
+                        alert("Your message has been sent successfully!");
+                    }, function(error) {
+                        console.error("Email send failed", error);
+                        alert("Oops! Something went wrong. Please try again later.");
+                    });
+            });
+        })();
+    </script>
 </body>
 </html>
