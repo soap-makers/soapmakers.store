@@ -3,35 +3,13 @@ body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
-html,
-body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
 
-.fullscreen-header {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
-
-.fullscreen-header img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
 }
-
 header {
     background-color: #007bff;
     color: #fff;
