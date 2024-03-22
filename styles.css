@@ -39,7 +39,7 @@ section {
 }
 
 /* Styles for responsive image */
-.image-section {
+section.image-section {
     width: 100%;
     height: auto; /* Allow the section height to adjust based on content */
     max-height: 100vh; /* Limit the maximum height of the section to the viewport height */
@@ -49,7 +49,7 @@ section {
     background-color: #f0f0f0; /* Optional: Set a background color for the section */
 }
 
-.image-section img {
+section.image-section img {
     max-width: 100%;
     max-height: 100%;
     height: auto;
