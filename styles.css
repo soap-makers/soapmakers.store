@@ -29,10 +29,6 @@ nav ul li a {
     font-weight: bold;
 }
 
-nav ul li a:hover {
-    background-color: #ccc; /* Change background color on hover */
-}
-
 section {
     padding: 20px;
     margin: 20px auto;
