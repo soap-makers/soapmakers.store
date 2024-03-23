@@ -14,14 +14,14 @@ header {
 }
 
 nav {
-    margin: 0 auto; /* Remove any default margins */
+    margin: 0; /* Remove any default margins */
     padding: 0; /* Remove any default padding */
 }
 
 nav ul {
     list-style-type: none;
     display: inline-block; /* Make the list items display inline-block to align within the header */
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -31,7 +31,7 @@ nav ul li {
 }
 
 nav ul li:last-child {
-    margin-right: 0; /* Remove right margin from the last item to prevent extra space */
+    margin-right: 0 auto; /* Remove right margin from the last item to prevent extra space */
 }
 
 nav ul li a {
