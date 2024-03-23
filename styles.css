@@ -7,7 +7,7 @@
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-    display: none;
+    display: block;
 }
 
 #return-to-top:hover {
