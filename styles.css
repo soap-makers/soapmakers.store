@@ -14,6 +14,15 @@
     background-color: #0056b3; /* Adjust the hover color as needed */
 }
 
+#return-to-top:visited,
+#return-to-top:active {
+    color: white; /* Set the same color for visited and active states */
+}
+
+#return-to-top:hover {
+    text-decoration: none; /* Remove underline on hover */
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
