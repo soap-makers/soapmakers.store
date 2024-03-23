@@ -15,11 +15,6 @@
     text-decoration: none;
 }
 
-#return-to-top:visited,
-#return-to-top:active {
-    color: white; /* Set the same color for visited and active states */
-}
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
