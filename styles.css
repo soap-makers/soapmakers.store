@@ -1,3 +1,19 @@
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff; /* Adjust the background color as needed */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: none;
+}
+
+#return-to-top:hover {
+    background-color: #0056b3; /* Adjust the hover color as needed */
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
