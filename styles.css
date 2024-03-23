@@ -15,11 +15,16 @@ header {
 
 nav ul {
     list-style-type: none;
+    text-align: center; /* Center the list items */
 }
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin: 0 10px; /* Adjust margin for spacing between items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove right margin from the last item to prevent extra space */
 }
 
 nav ul li a {
