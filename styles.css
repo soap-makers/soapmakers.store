@@ -7,11 +7,15 @@
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-    display: none;
+    display: none; /* Initially hide the link */
 }
 
 #return-to-top:hover {
     background-color: #0056b3; /* Adjust the hover color as needed */
+}
+
+#top:target ~ #return-to-top {
+    display: block; /* Show the link when the #top element is targeted */
 }
 
 body {
