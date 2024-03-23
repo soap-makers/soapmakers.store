@@ -29,48 +29,6 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Header Navigation Menu */
-.header-nav {
-    margin-top: 20px; /* Adjust spacing as needed */
-}
-
-.header-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.header-nav li {
-    display: inline;
-    margin-right: 20px; /* Adjust spacing between menu items */
-}
-
-.header-nav li a {
-    text-decoration: none;
-    color: #333; /* Adjust link color as needed */
-}
-
-/* Footer Navigation Menu */
-.footer-nav {
-    margin-top: 20px; /* Adjust spacing as needed */
-}
-
-.footer-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.footer-nav li {
-    display: inline;
-    margin-right: 20px; /* Adjust spacing between menu items */
-}
-
-.footer-nav li a {
-    text-decoration: none;
-    color: #666; /* Adjust link color as needed */
-}
-
 section {
     padding: 20px;
     margin: 20px auto;
