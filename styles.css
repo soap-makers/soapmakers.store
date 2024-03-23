@@ -14,7 +14,7 @@ header {
 }
 
 nav {
-    margin: 0; /* Remove any default margins */
+    margin: 0 auto; /* Remove any default margins */
     padding: 0; /* Remove any default padding */
 }
 
@@ -27,7 +27,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin: 0 10px; /* Adjust margin for spacing between items */
+    margin: 0 10px auto; /* Adjust margin for spacing between items */
 }
 
 nav ul li:last-child {
