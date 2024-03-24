@@ -37,9 +37,10 @@
     <form action="mailto:contact@soapmakers.store" method="post" enctype="text/plain">
     <fieldset>
         <legend>Customer Information:</legend>
-        Name: <input type="text" id="name" name="name" required><br>
-        Email: <input type="email" id="email" name="email" required><br>
-        Phone Number: <input type="tel" id="phone" name="phone" required><br>
+            <label for="name">Name:</label><br> <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Phone:</label><br> <input type="tel" id="phone" name="phone" required><br>
         Shipping Address: <textarea id="address" name="address" rows="4" required></textarea><br>
     </fieldset>
 
@@ -63,8 +64,6 @@
             <option value="Cash on Delivery">Cash on Delivery</option>
         </select><br>
     </fieldset>
-    
-    <input type="submit" value="Submit">
         
         <fieldset>
     <legend>Paypal:</legend>
