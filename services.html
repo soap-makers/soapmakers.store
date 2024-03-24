@@ -35,37 +35,36 @@
     <section>
     <h2>Soap Order Form</h2>
     <form action="mailto:contact@soapmakers.store" method="post" enctype="text/plain">
-        <fieldset>
-            <legend>Customer Information:</legend>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br>
-            <label for="phone">Phone Number:</label><br>
-            <input type="tel" id="phone" name="phone" required><br>
-            <label for="address">Shipping Address:</label><br>
-            <textarea id="address" name="address" rows="4" required></textarea>
-        </fieldset>
-        <fieldset>
-            <legend>Product Selection:</legend>
-            <input type="checkbox" id="olive" name="olive" value="Olive Oil Bar - $12">
-            <label for="olive">Olive Oil Bar - $12</label><br>
-            <input type="checkbox" id="sesame" name="sesame" value="Sesame Seed Oil Bar - $12">
-            <label for="sesame">Sesame Seed Oil Bar - $12</label><br>
-            <input type="checkbox" id="olive3" name="olive3" value="Olive  Oil Bar (3 bars) - $30">
-            <label for="olive3">Olive Oil Bar (3 bars) - $30</label><br>
-            <input type="checkbox" id="sesame3" name="sesame3" value="Sesame Seed Oil Bar (3 bars) - $30">
-            <label for="sesame3">Sesame Seed Oil Bar (3 bars) - $30</label><br>
-        </fieldset>
-        <fieldset>
-            <legend>Payment Information:</legend>
-            <label for="payment">Payment Preferences:</label><br>
-            <select id="payment" name="payment">
-                <option value="PayPal">PayPal</option>
-                <option value="Bank Transfer">Bank Transfer</option>
-                <option value="Cash on Delivery">Cash on Delivery</option>
-            </select><br>
-        </fieldset>
+    <fieldset>
+        <legend>Customer Information:</legend>
+        Name: <input type="text" id="name" name="name" required><br>
+        Email: <input type="email" id="email" name="email" required><br>
+        Phone Number: <input type="tel" id="phone" name="phone" required><br>
+        Shipping Address: <textarea id="address" name="address" rows="4" required></textarea><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Product Selection:</legend>
+        <input type="checkbox" id="olive" name="olive" value="Olive Oil Bar - $12">
+        <label for="olive">Olive Oil Bar - $12</label><br>
+        <input type="checkbox" id="sesame" name="sesame" value="Sesame Seed Oil Bar - $12">
+        <label for="sesame">Sesame Seed Oil Bar - $12</label><br>
+        <input type="checkbox" id="olive3" name="olive3" value="Olive  Oil Bar (3 bars) - $30">
+        <label for="olive3">Olive Oil Bar (3 bars) - $30</label><br>
+        <input type="checkbox" id="sesame3" name="sesame3" value="Sesame Seed Oil Bar (3 bars) - $30">
+        <label for="sesame3">Sesame Seed Oil Bar (3 bars) - $30</label><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Payment Information:</legend>
+        Payment Preferences: <select id="payment" name="payment">
+            <option value="PayPal">PayPal</option>
+            <option value="Bank Transfer">Bank Transfer</option>
+            <option value="Cash on Delivery">Cash on Delivery</option>
+        </select><br>
+    </fieldset>
+    
+    <input type="submit" value="Submit">
         
         <fieldset>
     <legend>Paypal:</legend>
