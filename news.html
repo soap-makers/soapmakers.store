@@ -51,7 +51,7 @@
         <fieldset>
             <legend>Product Selection:</legend>
             <label for="sesame">Sesame Seed Oil Soap Bar - Quantity:</label>
-            <input type="number" id="sesame" name="sesame" min="1" value="1" required><br>
+            <input type="number" id="sesame" name="sesame" min="1" value="1" required oninput="updatePrice(this.value)"><br>
             <!-- Add more soap options here if needed -->
         </fieldset>
         <fieldset>
@@ -61,8 +61,8 @@
         </fieldset>
         <fieldset>
             <legend>Payment Information:</legend>
-            <label>Total Quantity:</label> <span id="totalQuantity">0</span><br>
-            <label>Total Price (including shipping):</label> $<span id="totalPrice">0.00</span><br>
+            <label>Total Quantity:</label> <span id="totalQuantity">1</span><br>
+            <label>Total Price (including shipping):</label> $<span id="totalPrice">12.00</span><br>
             <!-- Payment method options here -->
         </fieldset>
         <fieldset>
