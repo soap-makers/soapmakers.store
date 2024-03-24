@@ -36,7 +36,7 @@
         </div>
         
         <h2>Sesame Seed Oil Soap Order Form</h2>
-    <form>
+    <form action="mailto:contact@soapmakers.store" method="post" enctype="text/plain">
         <fieldset>
             <legend>Customer Information:</legend>
             <label for="name">Name:</label><br>
@@ -50,24 +50,22 @@
         </fieldset>
         <fieldset>
             <legend>Product Selection:</legend>
-            <label for="sesame">Sesame Seed Oil Soap Bar - Quantity:</label>
-            <input type="number" id="sesame" name="sesame" min="1" value="1" required oninput="updatePrice(this.value)"><br>
-            <!-- Add more soap options here if needed -->
-        </fieldset>
-        <fieldset>
-            <legend>Shipping Options:</legend>
-            <label><input type="radio" name="shipping" value="standard" checked> Standard Shipping (5-7 business days)</label><br>
-            <label><input type="radio" name="shipping" value="expedited"> Expedited Shipping (2-3 business days)</label>
+            <input type="checkbox" id="olive" name="olive" value="Olive Oil Bar - $12">
+            <label for="olive">Olive Oil Bar - $12</label><br>
+            <input type="checkbox" id="sesame" name="sesame" value="Sesame Seed Oil Bar - $12">
+            <label for="sesame">Sesame Seed Oil Bar - $12</label><br>
+            <input type="checkbox" id="sesame3" name="sesame3" value="Sesame Seed Oil Bar (3 bars) - $30">
+            <label for="sesame3">Sesame Seed Oil Bar (3 bars) - $30</label><br>
         </fieldset>
         <fieldset>
             <legend>Payment Information:</legend>
-            <label>Total Quantity:</label> <span id="totalQuantity">1</span><br>
-            <label>Total Price (including shipping):</label> $<span id="totalPrice">12.00</span><br>
-            <!-- Payment method options here -->
-        </fieldset>
-        <fieldset>
-            <legend>Additional Notes or Special Requests:</legend>
-            <textarea id="notes" name="notes" rows="4"></textarea>
+            <label for="payment">Payment Preferences:</label><br>
+            <select id="payment" name="payment">
+                <option value="Credit Card">Credit Card</option>
+                <option value="PayPal">PayPal</option>
+                <option value="Bank Transfer">Bank Transfer</option>
+                <option value="Cash on Delivery">Cash on Delivery</option>
+            </select><br>
         </fieldset>
         <button type="submit">Place Order</button>
     </form>
