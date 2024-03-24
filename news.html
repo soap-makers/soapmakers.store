@@ -34,6 +34,43 @@
             <p>Description of the news post content. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <a href="news_post2.html">Read More</a>
         </div>
+        
+        <h2>Sesame Seed Oil Soap Order Form</h2>
+    <form>
+        <fieldset>
+            <legend>Customer Information:</legend>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required><br>
+            <label for="address">Shipping Address:</label><br>
+            <textarea id="address" name="address" rows="4" required></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Product Selection:</legend>
+            <label for="sesame">Sesame Seed Oil Soap Bar - Quantity:</label>
+            <input type="number" id="sesame" name="sesame" min="1" value="1" required><br>
+            <!-- Add more soap options here if needed -->
+        </fieldset>
+        <fieldset>
+            <legend>Shipping Options:</legend>
+            <label><input type="radio" name="shipping" value="standard" checked> Standard Shipping (5-7 business days)</label><br>
+            <label><input type="radio" name="shipping" value="expedited"> Expedited Shipping (2-3 business days)</label>
+        </fieldset>
+        <fieldset>
+            <legend>Payment Information:</legend>
+            <label>Total Quantity:</label> <span id="totalQuantity">0</span><br>
+            <label>Total Price (including shipping):</label> $<span id="totalPrice">0.00</span><br>
+            <!-- Payment method options here -->
+        </fieldset>
+        <fieldset>
+            <legend>Additional Notes or Special Requests:</legend>
+            <textarea id="notes" name="notes" rows="4"></textarea>
+        </fieldset>
+        <button type="submit">Place Order</button>
+    </form>
         <!-- Add more posts as needed -->
     </section>
     
