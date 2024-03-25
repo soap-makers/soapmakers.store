@@ -1,3 +1,19 @@
+.paypal-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #003087;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #003087;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.paypal-button img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
 #return-to-top {
     position: fixed;
     bottom: 20px;
