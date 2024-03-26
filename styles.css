@@ -42,8 +42,14 @@
 }
 
 .container {
+    height: auto; /* Allow the section height to adjust based on content */
+    max-height: 100vh;
+    width: 100%;
     display: flex;
+    margin-bottom: 20px;
     flex-wrap: wrap;
+    text-align: center; /* Center-align the content within the link */
+    text-decoration: none;
     justify-content: center;
     align-items: center;
     background-color: #fff;
