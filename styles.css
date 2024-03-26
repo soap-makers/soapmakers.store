@@ -41,30 +41,33 @@
     opacity: 1; 
 }
 
-div.container {
-    width: 100%;
-    height: auto; /* Allow the section height to adjust based on content */
-    max-height: 100vh; /* Limit the maximum height of the section to the viewport height */
+.container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;/* Align items to the start of the flex container */
-}
-
-div.container img {
-    max-width: 100%;
-    max-height: 100%;
-    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .product {
-    width: 100%;
-    height: auto; /* Allow the section height to adjust based on content */
-    max-height: 100vh; /* Limit the maximum height of the section to the viewport height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
+    width: calc(30% - 20px);
+    margin-bottom: 20px;
+    text-align: center; /* Center-align the content within the link */
+    text-decoration: none; /* Remove default link underline */
+    color: inherit; /* Inherit text color from parent */
+}
+
+.product img {
+    width: 100%; /* Make the image fill the width of its container */
+    height: auto; /* Allow the image to scale proportionally */
+    margin-bottom: 10px; /* Add space between the image and text */
+}
+
+.product h3 {
+    margin: 0; /* Remove default margins */
+}
+
+.product p {
+    margin: 0;
 }
 
 body {
