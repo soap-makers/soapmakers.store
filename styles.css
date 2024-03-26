@@ -57,7 +57,7 @@
     margin-bottom: 20px;
     text-align: center; /* Center-align the content within the link */
     text-decoration: none; /* Remove default link underline */
-    justify-content: center
+    justify-content: center;
 }
 
 .product img {
