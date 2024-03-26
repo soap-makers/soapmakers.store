@@ -54,10 +54,15 @@
 
 .product {
     width: calc(30% - 20px); /* Adjust width of each product with margin included */
-    max-height: calc(100vh - 40px); /* Limit the maximum height of each product */
+    max-height: 80vh; /* Limit the maximum height of each product */
     height: auto; /* Allow the height to adjust based on content */
     margin-bottom: 20px; /* Add margin between products */
     /* Add additional styling as needed */
+}
+
+.product img {
+    max-width: 100%; /* Ensure images don't exceed the width of their container */
+    max-height: 100%; /* Ensure images don't exceed the height of their container */
 }
 
 body {
