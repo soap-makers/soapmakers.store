@@ -42,7 +42,7 @@
 }
 
 .container {
-    width: 100%;
+    width: 30%;
     height: auto; /* Allow the section height to adjust based on content */
     max-height: 100vh; /* Limit the maximum height of the section to the viewport height */
     align-items: center;
