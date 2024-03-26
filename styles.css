@@ -115,6 +115,7 @@ section {
 
 /* Styles for responsive image */
 div.image-section {
+    text-decoration: none;
     width: 100%;
     height: auto; /* Allow the section height to adjust based on content */
     max-height: 100vh; /* Limit the maximum height of the section to the viewport height */
