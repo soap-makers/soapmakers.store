@@ -14,7 +14,7 @@
 
 #return-to-top {
     position: fixed;
-    bottom: 20px;
+    bottom: -50px;
     right: 20px;
     background-color: #007bff;
     color: white;
@@ -28,7 +28,7 @@
 
 /* Reveal the button when scrolled */
 body:not(:target) #return-to-top {
-    display: block; /* Bring into view */
+    bottom: 20px; /* Bring into view */
 }
 
 #return-to-top:hover {
