@@ -21,7 +21,7 @@
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-    display: none;
+    display: block;
     opacity: 0.3;
     transition: opacity 0.3s ease;
 }
