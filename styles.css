@@ -47,8 +47,6 @@
     width: 100%;
     display: flex;
     margin-bottom: 20px;
-    flex-wrap: wrap;
-    text-align: center; /* Center-align the content within the link */
     text-decoration: none;
     justify-content: center;
     align-items: center;
