@@ -132,7 +132,7 @@ div.image-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0; /* Optional: Set a background color for the section */
+    background-color: #fff; /* Optional: Set a background color for the section */
 }
 
 div.image-section img {
