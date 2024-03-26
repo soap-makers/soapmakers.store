@@ -68,14 +68,6 @@
     margin-bottom: 10px; /* Add space between the image and text */
 }
 
-.product h3 {
-    margin: 0; /* Remove default margins */
-}
-
-.product p {
-    margin: 0;
-}
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
