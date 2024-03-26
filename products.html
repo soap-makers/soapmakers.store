@@ -21,7 +21,7 @@
     
     <section>
         <div class="container">
-        <a href="index.html" class="product">
+        <a href="olivebar.html" class="product">
             <img src="IMG_3643.jpeg" alt="Olive Oil Bar">
             <h2>Olive Oil Bar</h2>
             <p>High-quality olive oil bar soap.</p>
@@ -42,6 +42,89 @@
             <p>Price: $12</p>
         </a>
     </div>
+    </section>
+    
+    <section>
+        <form action="mailto:contact@soapmakers.store" method="post" enctype="text/plain">
+    
+    <fieldset>
+        <legend>Paypal:</legend>
+        <p>To purchase item(s) via PayPal or credit card, please click the button below.</p>
+        <a href="https://www.paypal.com/ncp/payment/QPWYGXJARH5DC" target="_blank" class="paypal-button">PayPal</a>
+        </fieldset>
+        
+        <div>
+            OR
+        </div>
+        
+    <fieldset>
+        <legend>Bank Transfer:</legend>
+        <p>Please submit the form below and transfer the total amount to the following bank account:</p>
+        <p><strong>Bank:</strong> National Australia Bank (NAB)</p>
+        <p><strong>Account Name:</strong> Soapmakers</p>
+        <p><strong>BSB:</strong> 085-005</p>
+        <p><strong>Account Number:</strong> 40-105-0500</p>
+        <p><strong>Reference:</strong> Please include your name as the reference for the transfer.</p>
+        <p><em>Note: Your order will be processed once payment is received.</em></p>
+    </fieldset>
+    
+    <h2>Order Form</h2>
+
+    <fieldset>
+        <legend>Product Selection:</legend>
+        <input type="checkbox" id="olive" name="olive" value="Olive Oil Bar - $12">
+        <label for="olive">Olive Oil Bar - $12</label><br>
+        <input type="checkbox" id="sesame" name="sesame" value="Sesame Seed Oil Bar - $12">
+        <label for="sesame">Sesame Seed Oil Bar - $12</label><br>
+        <input type="checkbox" id="coconut" name="coconut" value="Coconut Oil Bar - $12">
+        <label for="coconut">Coconut Oil Bar - $12</label><br>
+        <input type="checkbox" id="olive3" name="olive3" value="Olive Oil Bar (3 bars) - $30">
+        <label for="olive3">Olive Oil Bar (3 bars) - $30</label><br>
+        <input type="checkbox" id="sesame3" name="sesame3" value="Sesame Seed Oil Bar (3 bars) - $30">
+        <label for="sesame3">Sesame Seed Oil Bar (3 bars) - $30</label><br>
+        <input type="checkbox" id="coconut3" name="coconut3" value="Coconut Oil Bar (3 bars) - $30">
+        <label for="coconut3">Coconut Oil Bar (3 bars) - $30</label><br>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Customer Information:</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required><br>
+        <label for="address">Shipping Address:</label><br> 
+        <textarea id="address" name="address" rows=" 4" cols="45" style="width: auto;" required></textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>Payment Information:</legend>
+        Payment Preferences: <select id="payment" name="payment">
+            <option value="Bank Transfer">Bank Transfer</option>
+            <option value="Cash on Delivery">Cash on Delivery</option>
+        </select><br>
+    </fieldset>
+        
+    <div class="g-recaptcha" data-sitekey="6Lds6qMpAAAAAN5sc8yjL9myHC_qetIuGyvI1b-k"></div>
+    
+    <noscript>
+        <div>
+            <div style="width: 302px; height: 352px;">
+                <div style="width: 302px; height: 352px; position: relative;">
+                    <div style="width: 302px; height: 352px; position: absolute;">
+                        <iframe src="https://www.google.com/recaptcha/api/fallback?k=your_site_key" frameborder="0" scrolling="no" style="width: 302px; height:352px; border-style: none;"></iframe>
+                    </div>
+                    <div style="width: 250px; height: 80px; position: absolute; border-style: none; bottom: 21px; left: 25px; margin: 0px; padding: 0px; right: 25px;">
+                        <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 80px; border: 1px solid #c1c1c1; margin: 0px; padding: 0px; resize: none;"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </noscript>
+
+            <button type="submit">Place Order</button>
+        </form>
     </section>
     
     <footer>
