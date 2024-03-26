@@ -1,31 +1,43 @@
 .paypal-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #003087;
+    background-color: #009cde;
     color: #ffffff;
     text-decoration: none;
-    border: 1px solid #003087;
+    border: 1px solid #009cde;
     border-radius: 4px;
     font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* PayPal font */
+    font-weight: bold;
 }
 
 #return-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #007bff; /* Adjust the background color as needed */
+    background-color: #007bff;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
     display: block;
-    opacity: 0.3; /* Default lower opacity */
-    transition: opacity 0.3s ease; /* Add transition for smooth effect */
+    opacity: 0.3;
+    transition: opacity 0.3s ease;
 }
 
 #return-to-top:hover {
-    background-color: #007bff; /* Adjust the hover color as needed */
-    opacity: 0.8; /* Increase opacity when hovered */
+    background-color: #007bff; 
+    opacity: 0.8; 
+}
+
+#return-to-top:visited {
+    background-color: #007bff; 
+    opacity: 0.3; 
+}
+
+#return-to-top:active {
+    background-color: #007bff; 
+    opacity: 1; 
 }
 
 body {
