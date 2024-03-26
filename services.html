@@ -32,8 +32,27 @@
     </section>
     
     <section>
-    <h2>Order Form</h2>
-    <form action="mailto:contact@soapmakers.store" method="post" enctype="text/plain">
+        <h2>Order Form</h2>
+        <form action="mailto:contact@soapmakers.store" method="post" enctype="text/plain">
+    
+    <fieldset>
+        <legend>Paypal:</legend>
+        <p>To select your item(s) via PayPal or credit card, please click the button below.</p>
+        <a href="https://www.paypal.com/ncp/payment/QPWYGXJARH5DC" target="_blank" class="paypal-button">PayPal</a>
+        </fieldset>
+        
+    <fieldset>
+        <legend>Bank Transfer:</legend>
+        <p>Please transfer the total amount to the following bank account:</p>
+        <p><strong>Bank:</strong> National Australia Bank (NAB)</p>
+        <p><strong>Account Name:</strong> Soapmakers</p>
+        <p><strong>BSB:</strong> 085-005</p>
+        <p><strong>Account Number:</strong> 40-105-0500</p>
+        <p><strong>Reference:</strong> Please include your name as the reference for the transfer.</p>
+        <p><em>Note: Your order will be processed once payment is received.</em></p>
+    </fieldset>
+
+    
     <fieldset>
         <legend>Customer Information:</legend>
         <label for="name">Name:</label>
@@ -52,38 +71,24 @@
         <label for="olive">Olive Oil Bar - $12</label><br>
         <input type="checkbox" id="sesame" name="sesame" value="Sesame Seed Oil Bar - $12">
         <label for="sesame">Sesame Seed Oil Bar - $12</label><br>
-        <input type="checkbox" id="olive3" name="olive3" value="Olive  Oil Bar (3 bars) - $30">
+        <input type="checkbox" id="coconut" name="coconut" value="Coconut Oil Bar - $12">
+        <label for="coconut">Coconut Oil Bar - $12</label><br>
+        <input type="checkbox" id="olive3" name="olive3" value="Olive Oil Bar (3 bars) - $30">
         <label for="olive3">Olive Oil Bar (3 bars) - $30</label><br>
         <input type="checkbox" id="sesame3" name="sesame3" value="Sesame Seed Oil Bar (3 bars) - $30">
         <label for="sesame3">Sesame Seed Oil Bar (3 bars) - $30</label><br>
+        <input type="checkbox" id="coconut3" name="coconut3" value="Coconut Oil Bar (3 bars) - $30">
+        <label for="coconut3">Coconut Oil Bar (3 bars) - $30</label><br>
     </fieldset>
 
     <fieldset>
         <legend>Payment Information:</legend>
         Payment Preferences: <select id="payment" name="payment">
-            <option value="PayPal">PayPal</option>
             <option value="Bank Transfer">Bank Transfer</option>
             <option value="Cash on Delivery">Cash on Delivery</option>
         </select><br>
     </fieldset>
         
-        <fieldset>
-    <legend>Paypal:</legend>
-        <p>To pay via PayPal, please <a href="https://www.paypal.com/ncp/payment/QPWYGXJARH5DC" target="_blank">click here</a> to proceed with your payment after submitting this form.</p>
-        <a href="https://www.paypal.com/ncp/payment/QPWYGXJARH5DC" target="_blank" class="paypal-button">PayPal</a>
-        </fieldset>
-        
-        <fieldset>
-    <legend>Bank Transfer:</legend>
-    <p>Please transfer the total amount to the following bank account:</p>
-    <p><strong>Bank:</strong> National Australia Bank (NAB)</p>
-    <p><strong>Account Name:</strong> Soapmakers</p>
-    <p><strong>BSB:</strong> 085-005</p>
-    <p><strong>Account Number:</strong> 40-105-0500</p>
-    <p><strong>Reference:</strong> Please include your name as the reference for the transfer.</p>
-    <p><em>Note: Your order will be processed once payment is received.</em></p>
-</fieldset>
-
 <div class="g-recaptcha" data-sitekey="6Lds6qMpAAAAAN5sc8yjL9myHC_qetIuGyvI1b-k"></div>
 
 <noscript>
@@ -101,8 +106,8 @@
     </div>
 </noscript>
 
-        <button type="submit">Place Order</button>
-    </form>
+            <button type="submit">Place Order</button>
+        </form>
     </section>
             
     <footer>
