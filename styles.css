@@ -56,8 +56,7 @@
     text-align: center; /* Center-align the content within the link */
     text-decoration: none; /* Remove default link underline */
     justify-content: center
-    align-items: center;
-    color: inherit; /* Inherit text color from parent */
+    background-color: #fff;
 }
 
 .product img {
