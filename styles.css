@@ -124,15 +124,21 @@ div.image-section {
     background-color: #ffffff; /* Optional: Set a background color for the section */
 }
 
+div.image-section a {
+    text-decoration: none; /* Remove underline for the link */
+    color: black; /* Inherit the color from the parent element */
+}
+
+div.image-section a:hover,
+div.image-section a:active,
+div.image-section a:focus {
+    color: black; /* Inherit the color from the parent element on hover, active, and focus states */
+}
+
 div.image-section img {
     max-width: 100%;
     max-height: 100%;
     height: auto;
-}
-
-div.image-section img a:vistied {
-    text-decoration: none;
-    color: black;
 }
 
 section h2 {
