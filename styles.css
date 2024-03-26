@@ -44,15 +44,19 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 
 .product {
+    height: auto; /* Allow the section height to adjust based on content */
+    max-height: 100vh;
     width: calc(30% - 20px);
     margin-bottom: 20px;
     text-align: center; /* Center-align the content within the link */
     text-decoration: none; /* Remove default link underline */
+    justify-content: center
+    align-items: center;
     color: inherit; /* Inherit text color from parent */
 }
 
