@@ -41,7 +41,7 @@
     opacity: 1; 
 }
 
-.container {
+.product {
     height: auto; /* Allow the section height to adjust based on content */
     max-height: 100vh;
     width: 100%;
@@ -53,17 +53,6 @@
     justify-content: center;
     align-items: center;
     background-color: #fff;
-}
-
-.product {
-    height: auto; /* Allow the section height to adjust based on content */
-    max-height: 100vh;
-    width: 100%;
-    display: flex;
-    margin-bottom: 20px;
-    text-align: center; /* Center-align the content within the link */
-    text-decoration: none; /* Remove default link underline */
-    justify-content: center;
 }
 
 .product img {
