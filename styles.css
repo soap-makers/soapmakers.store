@@ -113,6 +113,7 @@ section {
 
 /* Styles for responsive image */
 div.image-section {
+    color: black;
     text-decoration: none;
     width: 100%;
     height: auto; /* Allow the section height to adjust based on content */
@@ -123,7 +124,7 @@ div.image-section {
     background-color: #ffffff; /* Optional: Set a background color for the section */
 }
 
-div.image-section a {
+div.image-section a:vistied {
     text-decoration: none;
     color: black;
 }
