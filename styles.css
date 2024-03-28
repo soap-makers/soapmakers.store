@@ -5,12 +5,14 @@
 .container {
     overflow-x: auto;
     white-space: nowrap;
-    text-align: center;
-    align-items: center;
+    text-align: justify;
 }
 
 .container p {
     margin: 5px 0 0; /* Adjust top margin to position text closer to the image */
+    display: inline-block;
+    width: auto; /* Adjust as needed */
+    margin-right: 20px; /* Adjust as needed */
 }
     
 .container .image {
