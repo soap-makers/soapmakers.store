@@ -1,13 +1,13 @@
 .logo {
     height: 4em; /* Adjust as needed */
 }
-    
+
 .container {
     overflow-x: auto;
     white-space: nowrap;
     text-align: justify;
 }
-    
+
 .container .image {
     display: inline-block;
     vertical-align: top;
@@ -29,6 +29,10 @@
 .container .image img {
     width: 100%;
     height: auto;
+}
+
+.container .image .text-container {
+    width: 300px; /* Match the width of the image */
 }
 
 div.image-section {
