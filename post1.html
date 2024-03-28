@@ -32,18 +32,20 @@
         display: inline-block;
     }
     
-    .container p {
-        margin: 5px 0 0; /* Adjust top margin to position text closer to the image */
-    }
-
-    .image {
+    .container .image {
+        display: inline-block;
+        vertical-align: top;
         width: 300px; /* Adjust as needed */
         margin-right: 20px; /* Adjust as needed */
     }
 
-    .image img {
+    .container .image img {
         width: 100%;
         height: auto;
+    }
+
+    .container p {
+        margin: 5px 0 0; /* Adjust top margin to position text closer to the image */
     }
 </style>
 
@@ -60,7 +62,6 @@
             <a href="olivebar.html">
                 <img src="IMG_3642.jpeg" alt="Sesame Seed Oil Soap">
             </a>
-            
         </div>
     </div>
 </section>
