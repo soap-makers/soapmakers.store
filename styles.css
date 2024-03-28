@@ -27,6 +27,8 @@
 }
 
 .image-gallery {
+    text-decoration: none;
+    color: black;
   width: 100%;
   overflow-x: auto;
   white-space: nowrap; /* Ensures images stay in a single line */
@@ -58,6 +60,8 @@
 
 .image-container h2 {
   text-align: justify;
+    text-decoration: none;
+    color: black;
 }
 
 div.image-section {
