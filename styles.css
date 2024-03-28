@@ -40,14 +40,14 @@
   white-space: normal; /* Allow text to wrap */
 }
 
-.image-container a {
+.image-container h2 a {
     text-decoration: none;
     color: black;
 }
 
-.image-container a:hover,
-.image-container a:active,
-.image-container a:focus {
+.image-container h2 a:hover,
+.image-container h2 a:active,
+.image-container h2 a:focus {
     text-decoration: none;
     color: black;
 }
