@@ -41,8 +41,8 @@
 }
 
 .image-container h2 a {
-    text-decoration: none;
-    color: black;
+    text-decoration: underline;
+    color: blue;
 }
 
 .image-container h2 a:hover,
