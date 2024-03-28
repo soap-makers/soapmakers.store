@@ -7,12 +7,6 @@
     white-space: nowrap;
     text-align: justify;
 }
-
-.container p {
-    margin: 5px 0 0; /* Adjust top margin to position text closer to the image */
-    display: inline-block;
-    margin-right: 20px; /* Adjust as needed */
-}
     
 .container .image {
     display: inline-block;
