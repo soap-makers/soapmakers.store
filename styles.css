@@ -10,20 +10,12 @@
 
 .container p {
     margin: 5px 0 0; /* Adjust top margin to position text closer to the image */
-    display: inline-block;
+    display: block;
     width: auto; /* Adjust as needed */
     margin-right: 20px; /* Adjust as needed */
 }
     
 .container .image {
-    
-    color: black;
-    height: auto; /* Allow the section height to adjust based on content */
-    max-height: 100vh; /* Limit the maximum height of the section to the viewport height */
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    
     display: inline-block;
     vertical-align: top;
     width: 300px; /* Adjust as needed */
