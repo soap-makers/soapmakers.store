@@ -27,8 +27,6 @@
 }
 
 .image-gallery {
-    text-decoration: none;
-    color: black;
   width: 100%;
   overflow-x: auto;
   white-space: nowrap; /* Ensures images stay in a single line */
@@ -42,6 +40,11 @@
   white-space: normal; /* Allow text to wrap */
 }
 
+.image-container a {
+    text-decoration: none;
+    color: black;
+}
+
 .image-container img {
   width: 100%; /* Ensures images fill the container */
   display: block;
@@ -51,11 +54,6 @@
   text-align: justify; /* Adjust as needed */
   margin-top: 5px; /* Adjust spacing between image and text */
   width: 100%; /* Make the paragraph width match the image container */
-}
-
-.image-container h2 a {
-    text-decoration: none;
-    color: black;
 }
 
 .image-container h2 {
