@@ -21,13 +21,12 @@
 
 <style>
 .image-gallery {
-    white-space: nowrap;
   width: 100%;
-  overflow-x: auto; /* Ensures images stay in a single line */
+  overflow-x: auto;
+  white-space: nowrap; /* Ensures images stay in a single line */
 }
 
 .image-container {
-    white-space; normal
   display: inline-block;
   width: 300px; /* Adjust the width according to your design */
   margin-right: 20px; /* Adjust spacing between images */
@@ -39,9 +38,8 @@
 }
 
 .image-container p {
-  text-align: justify; /* Adjust as needed */
-  margin-top: 5px; /* Adjust spacing between image and text */
-  overflow-wrap: break-word; /* Allow words to break and wrap onto the next line */
+  text-align: justify;
+    width: 300px;
 }
 
 .image-container h2 {
@@ -51,6 +49,19 @@
 </style>
 
     <section>
+        
+        <div class="image-gallery">
+  <div class="image-container">
+    <img src="IMG_3642.jpeg" alt="Image 1">
+    <p>Text for Image 1</p>
+  </div>
+  <div class="image-container">
+    <img src="IMG_3642.jpeg" alt="Image 2">
+    <p>Text for Image 2</p>
+  </div>
+  <!-- Add more image-container divs for additional images -->
+</div>
+        
         <h2>Featured Products</h2>
         <div class="image-gallery">
   <div class="image-container">
