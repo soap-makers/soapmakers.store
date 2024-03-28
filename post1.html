@@ -25,42 +25,39 @@
         height: 4em; /* Adjust as needed */
     }
 
-    .image-container {
-        display: inline-block;
-        vertical-align: top;
+<style>
+    .container {
         overflow-x: auto;
         white-space: nowrap;
-        text-align: center;
-        margin-right: 20px;
-        text-decoration: none;
-        width: 100%; /* Set a width to enable horizontal scrolling */
     }
 
-    .image-container > a {
+    .image {
         display: inline-block;
-        vertical-align: top;
-        width: 320px; /* Adjust as needed (image width + margin) */
+        width: 300px; /* Adjust as needed */
         margin-right: 20px; /* Adjust as needed */
-        text-decoration: none; /* Remove underline from links */
     }
 
-    .image-container img {
-        width: 100%; /* Ensure images fill their parent anchor */
+    .image img {
+        width: 100%;
         height: auto;
     }
 </style>
 
 <section>
     <h2>Featured Products</h2>
-    <div class="image-container">
-        <a href="olivebar.html">
-            <img src="IMG_3642.jpeg" alt="Olive Oil and Salt Soap">
-            <p>Olive Oil and Salt Soap</p>
-        </a>
-        <a href="sesamebar.html">
-            <img src="IMG_3643.jpeg" alt="Sesame Seed Oil Soap">
-            <p>Sesame Seed Oil Soap</p>
-        </a>
+    <div class="container">
+        <div class="image">
+            <a href="olivebar.html">
+                <img src="IMG_3642.jpeg" alt="Olive Oil and Salt Soap">
+            </a>
+            <p>hi</p>
+        </div>
+        <div class="image">
+            <a href="olivebar.html">
+                <img src="IMG_3642.jpeg" alt="Sesame Seed Oil Soap">
+            </a>
+            
+        </div>
     </div>
 </section>
 
