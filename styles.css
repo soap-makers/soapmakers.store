@@ -40,18 +40,6 @@
   white-space: normal; /* Allow text to wrap */
 }
 
-.image-container h2 a {
-    text-decoration: none;
-    color: black;
-}
-
-.image-container h2 a:hover,
-.image-container h2 a:active,
-.image-container h2 a:focus {
-    text-decoration: none;
-    color: black;
-}
-
 .image-container img {
   width: 100%; /* Ensures images fill the container */
   display: block;
@@ -61,11 +49,6 @@
   text-align: justify; /* Adjust as needed */
   margin-top: 5px; /* Adjust spacing between image and text */
   width: 100%; /* Make the paragraph width match the image container */
-}
-
-.image-container p a {
-  text-decoration: none;
-    color: black;
 }
 
 .image-container h2 {
