@@ -15,17 +15,6 @@
     margin-right: 20px; /* Adjust as needed */
 }
 
-.container .image a {
-    text-decoration: none; /* Remove underline for the link */
-    color: black; 
-}
-
-.container .image a:hover,
-.container .image a:active,
-.container .image a:focus {
-    color: black;
-}
-
 .container .image img {
     width: 100%;
     height: auto;
@@ -33,6 +22,9 @@
 
 .container .image .text-container {
     width: 300px; /* Match the width of the image */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
 }
 
 div.image-section {
