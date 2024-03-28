@@ -41,8 +41,8 @@
 }
 
 .image-container h2 a {
-    text-decoration: underline;
-    color: blue;
+    text-decoration: none;
+    color: black;
 }
 
 .image-container h2 a:hover,
@@ -65,8 +65,16 @@
 
 .image-container p a {
   text-decoration: none;
-    color: black;
+    color: blue
 }
+
+.image-container p a:visited {
+    text-decoration: underline;
+    color: purple;
+}
+
+.image-container p a:hover {
+    text-decoration: underline;
 
 .image-container h2 {
   text-align: justify;
