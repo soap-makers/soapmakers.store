@@ -16,6 +16,12 @@
   white-space: normal; /* Allow text to wrap */
 }
 
+.image-container a {
+    text-align: justify;
+    text-decoration: none;
+    color: black
+}
+
 .image-container img {
   width: 100%; /* Ensures images fill the container */
   display: block;
