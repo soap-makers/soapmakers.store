@@ -51,6 +51,10 @@
   width: 100%; /* Make the paragraph width match the image container */
 }
 
+.image-container a {
+    text-decoration: none;
+}
+
 .image-container h2 {
   text-align: justify;
 }
