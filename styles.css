@@ -32,6 +32,10 @@
   white-space: nowrap; /* Ensures images stay in a single line */
 }
 
+.image-gallery a {
+    text-decoration: none;
+}
+
 .image-container {
   display: inline-block;
   width: 300px; /* Adjust the width according to your design */
