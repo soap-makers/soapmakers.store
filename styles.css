@@ -1,19 +1,18 @@
 .logo {
-        height: 4em; /* Adjust as needed */
+    height: 4em; /* Adjust as needed */
 }
     
 .container {
-        overflow-x: auto;
-        white-space: nowrap;
-        text-align: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    text-align: center;
 }
     
 .container .image {
-        text-decoration: none;
-        display: inline-block;
-        vertical-align: top;
-        width: 300px; /* Adjust as needed */
-        margin-right: 20px; /* Adjust as needed */
+    display: inline-block;
+    vertical-align: top;
+    width: 300px; /* Adjust as needed */
+    margin-right: 20px; /* Adjust as needed */
 }
 
 .container .image a {
@@ -28,12 +27,13 @@
 }
 
 .container .image img {
-        width: 100%;
-        height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .container p {
-        margin: 5px 0 0; /* Adjust top margin to position text closer to the image */
+    margin: 5px 0 0; /* Adjust top margin to position text closer to the image */
+    word-wrap: break-word;
 }
 
 div.image-section {
