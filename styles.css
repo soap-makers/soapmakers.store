@@ -45,6 +45,12 @@
     color: black;
 }
 
+.image-container a:hover,
+.image-container a:active,
+.image-container a:focus {
+    color: black;
+}
+
 .image-container img {
   width: 100%; /* Ensures images fill the container */
   display: block;
