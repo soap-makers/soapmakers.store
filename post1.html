@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <img src="IMG_4092.jpeg" alt="Soapmakers">
+        <img src="IMG_4092.jpeg" alt="Soapmakers" class="logo">
         <nav>
             <ul><b>
                 <li><a href="index.html">Home</a></li>
@@ -20,6 +20,12 @@
     </header>
     
 <style>
+
+    .logo {
+        width: 1em; /* Adjust as needed */
+        height: 1em; /* Adjust as needed */
+    }
+
     .image-container {
         overflow-x: auto;
         white-space: nowrap;
@@ -33,17 +39,26 @@
         height: auto;
         margin-right: 20px; /* Adjust as needed */
     }
+
+    .image-container p {
+        margin: 0; /* Remove default margin */
+    }
 </style>
 
 <section>
     <h2>Featured Products</h2>
     <div class="image-container">
-        <a href="olivebar.html">
-            <img src="IMG_3642.jpeg" alt="Olive Oil and Salt Soap">
-        </a>
-        hi
-        <a href="sesamebar.html">
-            <img src="IMG_3643.jpeg" alt="Sesame Seed Oil Soap">
-        </a>
+        <div>
+            <a href="olivebar.html">
+                <img src="IMG_3642.jpeg" alt="Olive Oil and Salt Soap">
+                <p>Olive Oil and Salt Soap</p>
+            </a>
+        </div>
+        <div>
+            <a href="sesamebar.html">
+                <img src="IMG_3643.jpeg" alt="Sesame Seed Oil Soap">
+                <p>Sesame Seed Oil Soap</p>
+            </a>
+        </div>
     </div>
 </section>
