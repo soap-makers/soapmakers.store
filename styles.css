@@ -20,10 +20,7 @@
 }
 
 .container .image .text-container {
-    width: 300px; /* Match the width of the image */
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
+    text-align: left;
 }
 
 div.image-section {
