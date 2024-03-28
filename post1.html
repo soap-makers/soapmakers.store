@@ -30,6 +30,8 @@
   display: inline-block;
   width: 300px; /* Adjust the width according to your design */
   margin-right: 20px; /* Adjust spacing between images */
+  vertical-align: top; /* Ensures proper alignment of inline-block elements */
+  white-space: normal; /* Allow text to wrap */
 }
 
 .image-container img {
@@ -38,8 +40,9 @@
 }
 
 .image-container p {
-  text-align: justify;
-    width: 300px;
+  text-align: justify; /* Adjust as needed */
+  margin-top: 5px; /* Adjust spacing between image and text */
+  width: 100%; /* Make the paragraph width match the image container */
 }
 
 .image-container h2 {
