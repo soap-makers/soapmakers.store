@@ -24,12 +24,15 @@
     overflow-x: auto;
     white-space: nowrap;
     text-align: center;
+    display: flex; /* Use flexbox for layout */
+    align-items: flex-start; /* Align items to the top */
 }
 
-.image-container {
+.image-container2 {
     display: inline-block;
     vertical-align: top;
     margin-right: 20px; /* Adjust as needed */
+    flex-shrink: 0; /* Prevent images from shrinking */
 }
 
 .image {
@@ -42,7 +45,6 @@
 }
 
 .text-container {
-    width: 100%; /* Ensure text container takes up full width */
     text-align: left; /* Align text to the left */
 }
 
@@ -52,13 +54,14 @@
 
 .text-container p {
     margin: 5px 0; /* Adjust top and bottom margin */
+    width: 100%; /* Ensure text takes up full width */
 }
 </style>
 
 <section>
     <h2>Featured Products</h2>
     <div class="container2">
-        <div class="image-container">
+        <div class="image-container2">
             <div class="image">
                 <a href="olivebar.html">
                     <img src="IMG_3642.jpeg" alt="Olive Oil and Salt Soap">
@@ -75,7 +78,7 @@
                 </div>
             </div>
         </div>
-        <div class="image-container">
+        <div class="image-container2">
             <div class="image">
                 <a href="sesamebar.html">
                     <img src="IMG_3643.jpeg" alt="Sesame Seed Oil Soap">
