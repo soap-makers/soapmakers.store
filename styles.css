@@ -79,6 +79,7 @@ div.image-section a:focus {
 }
 
 body {
+  min-height: 100vh;
     font-family: Arial;
     margin: 0;
     padding: 0;
@@ -123,7 +124,7 @@ section {
   display: flex; /* Use flexbox */
     flex-direction: column; /* Stack children vertically */
     justify-content: space-between; /* Push content to the top and bottom */
-  min-height: 100vh;
+  
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
