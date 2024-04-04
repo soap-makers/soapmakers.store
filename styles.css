@@ -1,7 +1,7 @@
 .logo {
     height: 6em; /* Adjust as needed */
     display: inline-block;
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden; /* Hide any content that exceeds the bounds of the logo container */
 }
 
@@ -136,7 +136,7 @@ footer {
     padding: 20px;
   margin-top: auto;
   bottom: 0;
-  width: 100vw; /* Match the width of the header */
+  width: 100%; /* Match the width of the header */
   text-align: center;
 }
 
