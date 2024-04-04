@@ -107,6 +107,7 @@ header {
 }
 
 section {
+  text-align: justify;
   flex-grow: 1; /* Allow section to grow and take up remaining space */
   padding: 20px;
   margin: 20px auto;
