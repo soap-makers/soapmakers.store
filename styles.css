@@ -64,9 +64,6 @@ div.image-section a:focus {
     text-decoration: none;
 }
 
-html {
-  height: 100%;
-
 body {
   position: relative;
   min-height: 100vh;
