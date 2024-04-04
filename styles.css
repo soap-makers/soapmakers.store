@@ -1,5 +1,5 @@
 .logo {
-    height: 5em; /* Adjust as needed */
+    height: 6em; /* Adjust as needed */
 }
 
 .image-gallery {
@@ -35,8 +35,6 @@
 
 .image-container h3 a {
   text-align: justify;
-    text-decoration: none;
-    color: black
 }
 
 div.image-section {
@@ -135,15 +133,6 @@ footer {
   margin-top: auto;
   bottom: 0;
   width: 100%; /* Match the width of the header */
-}
-
-#short {
-  padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #return-to-top {
