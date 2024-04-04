@@ -121,6 +121,7 @@ nav ul li a {
 }
 
 section {
+  flex-grow: 1;
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
