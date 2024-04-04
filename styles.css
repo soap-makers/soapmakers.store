@@ -64,8 +64,13 @@ div.image-section a:focus {
     text-decoration: none;
 }
 
+html {
+  height: 100%;
+
 body {
-  min-height: 100%;
+  display; flex;
+  flex-direction: column;
+  min-height: 100vh;
     font-family: Arial;
     margin: 0;
     padding: 0;
@@ -107,6 +112,7 @@ nav ul li a {
 }
 
 section {
+  flex-shrink: 0;
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
@@ -120,6 +126,7 @@ section h2 {
 }
 
 footer {
+  flex-shrink: 0;
     background-color: #333;
     color: white;
     text-align: center;
@@ -127,9 +134,7 @@ footer {
 }
 
 #short {
-  display: flex; /* Use flexbox */
-    flex-direction: column; /* Stack children vertically */
-    justify-content: space-between; /* Push content to the top and bottom */
+  flex-grow: 1;
 }
 
 #return-to-top {
