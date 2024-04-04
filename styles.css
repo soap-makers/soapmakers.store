@@ -66,8 +66,7 @@ div.image-section img {
 div.image-section a:hover,
 div.image-section a:active,
 div.image-section a:focus,
-div.image-section a:visited
- {
+div.image-section a:visited {
   color: black;
 }
 
