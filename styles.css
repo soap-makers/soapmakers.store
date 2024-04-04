@@ -51,11 +51,6 @@ div.image-section {
   overflow: hidden; /* Prevent content from exceeding bounds */
 }
 
-div.image-section a {
-  text-decoration: none;
-  color: black;
-}
-
 div.image-section img {
   max-width: 100%; /* Ensure image doesn't exceed container width */
   height: auto;
@@ -63,11 +58,13 @@ div.image-section img {
   color: black;
 }
 
+div.image-section a,
 div.image-section a:hover,
 div.image-section a:active,
 div.image-section a:focus,
 div.image-section a:visited {
   color: black;
+  text-decoration: none;
 }
 
 div.image-section img {
