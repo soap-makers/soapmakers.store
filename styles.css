@@ -1,3 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body takes up at least the height of the viewport */
+  justify-content: space-between; /* Pushes header and footer to top and bottom */
+}
+
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  text-align: justify;
+  flex-grow: 1; /* Allow section to grow and take up remaining space */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  min-width: 100vw;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  margin: 0; /* Remove any default margins */
+  padding: 0; /* Remove any default padding */
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline-block; /* Make the list items display inline-block to align within the header */
+  margin: 0 auto;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px auto; /* Adjust margin for spacing between items */
+}
+
+nav ul li:last-child {
+  margin-right: 0 auto; /* Remove right margin from the last item to prevent extra space */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+div.image-section {
+  color: black;
+  width: 100%;
+  height: auto;
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  overflow: hidden; /* Prevent content from exceeding bounds */
+}
+
+div.image-section img {
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  height: auto;
+  text-decoration: none;
+  color: black;
+}
+
+div.image-section a,
+div.image-section a:hover,
+div.image-section a:active,
+div.image-section a:focus,
+div.image-section a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+div.image-section img {
+  display: block;
+  width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
 .logo {
   height: 5em; /* Adjust as needed */
 }
@@ -39,41 +144,6 @@
   color: black
 }
 
-div.image-section {
-  color: black;
-  width: 100%;
-  height: auto;
-  max-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffffff;
-  overflow: hidden; /* Prevent content from exceeding bounds */
-}
-
-div.image-section img {
-  max-width: 100%; /* Ensure image doesn't exceed container width */
-  height: auto;
-  text-decoration: none;
-  color: black;
-}
-
-div.image-section a,
-div.image-section a:hover,
-div.image-section a:active,
-div.image-section a:focus,
-div.image-section a:visited {
-  color: black;
-  text-decoration: none;
-}
-
-div.image-section img {
-  display: block;
-  width: 100%;
-  max-height: 100%;
-  height: auto;
-}
-
 .paypal-button {
   display: inline-block;
   padding: 10px 20px;
@@ -86,75 +156,6 @@ div.image-section img {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* PayPal font */
   font-weight: bold;
   font-style: italic;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f5f5f5;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Ensure the body takes up at least the height of the viewport */
-  justify-content: space-between; /* Pushes header and footer to top and bottom */
-}
-
-header {
-  background-color: #3498db;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-section {
-  text-align: justify;
-  flex-grow: 1; /* Allow section to grow and take up remaining space */
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 800px;
-  display: flex;
-  flex-direction: row;
-  min-width: 800vw;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-section h2 {
-  text-align: center;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
-nav {
-  margin: 0; /* Remove any default margins */
-  padding: 0; /* Remove any default padding */
-}
-
-nav ul {
-  list-style-type: none;
-  display: inline-block; /* Make the list items display inline-block to align within the header */
-  margin: 0 auto;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline-block;
-  margin: 0 10px auto; /* Adjust margin for spacing between items */
-}
-
-nav ul li:last-child {
-  margin-right: 0 auto; /* Remove right margin from the last item to prevent extra space */
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: white;
 }
 
 #return-to-top {
