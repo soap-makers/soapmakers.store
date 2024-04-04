@@ -1,5 +1,5 @@
 .logo {
-    height: 5em; /* Adjust as needed */
+  height: 5em; /* Adjust as needed */
 }
 
 .image-gallery {
@@ -11,7 +11,7 @@
 }
 
 .image-gallery::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, and Opera */
+  display: none; /* Chrome, Safari, and Opera */
 }
 
 .image-container {
@@ -35,140 +35,146 @@
 
 .image-container h3 a {
   text-align: justify;
-    text-decoration: none;
-    color: black
+  text-decoration: none;
+  color: black
 }
 
 div.image-section {
-    color: black;
-    width: 100%;
-    height: auto;
-    max-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    overflow: hidden; /* Prevent content from exceeding bounds */
+  color: black;
+  width: 100%;
+  height: auto;
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  overflow: hidden; /* Prevent content from exceeding bounds */
 }
+
+div.image-section a {
+  text-decoration: none;
+  colour:black;
+}
+
 div.image-section img {
-    max-width: 100%; /* Ensure image doesn't exceed container width */
-    height: auto;
-    text-decoration: none;
-    color: black;
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+    mheight: auto;
+  text-decoration: none;
+  color: black;
 }
 
 div.image-section a:hover,
 div.image-section a:active,
 div.image-section a:focus {
-    color: black;
+  color: black;
 }
 
 div.image-section img {
-    max-width: 100%;
-    max-height: 100%;
-    height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
 }
 
 .paypal-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #009cde;
-    color: #ffffff;
-    text-decoration: none;
-    border: 1px solid #009cde;
-    border-radius: 4px;
-    font-size: 16px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* PayPal font */
-    font-weight: bold;
-    font-style: italic;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #009cde;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #009cde;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* PayPal font */
+  font-weight: bold;
+  font-style: italic;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-    text-align: justify;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  text-align: justify;
 }
 
 header {
-    background-color: #3498db;
-    color: white;
-    padding: 20px;
-    text-align: center;
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 nav {
-    margin: 0; /* Remove any default margins */
-    padding: 0; /* Remove any default padding */
+  margin: 0; /* Remove any default margins */
+  padding: 0; /* Remove any default padding */
 }
 
 nav ul {
-    list-style-type: none;
-    display: inline-block; /* Make the list items display inline-block to align within the header */
-    margin: 0 auto;
-    padding: 0;
+  list-style-type: none;
+  display: inline-block; /* Make the list items display inline-block to align within the header */
+  margin: 0 auto;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 0 10px auto; /* Adjust margin for spacing between items */
+  display: inline-block;
+  margin: 0 10px auto; /* Adjust margin for spacing between items */
 }
 
 nav ul li:last-child {
-    margin-right: 0 auto; /* Remove right margin from the last item to prevent extra space */
+  margin-right: 0 auto; /* Remove right margin from the last item to prevent extra space */
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 section {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-    text-align: center;
+  text-align: center;
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 
 #return-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    display: block;
-    opacity: 0.3;
-    transition: opacity 0.3s ease;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;
+  opacity: 0.3;
+  transition: opacity 0.3s ease;
 }
 
 #return-to-top:hover {
-    background-color: #007bff; 
-    opacity: 0.8; 
+  background-color: #007bff; 
+  opacity: 0.8; 
 }
 
 #return-to-top:visited {
-    background-color: #007bff; 
-    opacity: 0.3; 
+  background-color: #007bff; 
+  opacity: 0.3; 
 }
 
 #return-to-top:active {
-    background-color: #007bff; 
-    opacity: 1; 
+  background-color: #007bff; 
+  opacity: 1; 
 }
