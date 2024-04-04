@@ -35,6 +35,8 @@
 
 .image-container h3 a {
   text-align: justify;
+  color: black;
+  text-decoration: none;
 }
 
 div.image-section {
