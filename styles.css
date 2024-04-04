@@ -120,6 +120,7 @@ nav ul li a {
 }
 
 section {
+  min-height: 100%
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
