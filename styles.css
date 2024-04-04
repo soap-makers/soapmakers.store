@@ -17,6 +17,7 @@ header {
 }
 
 section {
+  max-width: 800px
   text-align: justify;
   flex-grow: 1; /* Allow section to grow and take up remaining space */
   padding: 20px;
