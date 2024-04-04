@@ -80,7 +80,6 @@ div.image-section a:focus {
 
 body {
   justify-content: space-between;
-  min-height: 100vh;
     font-family: Arial;
     margin: 0;
     padding: 0;
@@ -122,6 +121,7 @@ nav ul li a {
 }
 
 section {
+  min-height: 100vh;
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
