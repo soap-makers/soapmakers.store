@@ -147,6 +147,7 @@ footer {
 }
 
 #return-to-top {
+  z-index: 999;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -158,6 +159,7 @@ footer {
     display: block;
     opacity: 0.3;
     transition: opacity 0.3s ease;
+    cursor: pointer;
 }
 
 #return-to-top:hover {
