@@ -17,11 +17,11 @@ header {
 }
 
 section {
-  max-width: 800px
   text-align: justify;
   flex-grow: 1; /* Allow section to grow and take up remaining space */
   padding: 20px;
   margin: 20px auto;
+  max-width: 800px
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -73,14 +73,12 @@ div.image-section {
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
-  overflow: hidden; /* Prevent content from exceeding bounds */
 }
 
 div.image-section img {
   max-width: 100%; /* Ensure image doesn't exceed container width */
   height: auto;
-  text-decoration: none;
-  color: black;
+  max-height: 100%;
 }
 
 div.image-section a,
