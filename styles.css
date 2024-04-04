@@ -1,8 +1,7 @@
 .logo {
-    height: 6em; /* Adjust as needed */
+    height: 5em; /* Adjust as needed */
     display: inline-block;
-    width: 100%;
-    overflow-x: hidden; /* Hide any content that exceeds the bounds of the logo container */
+    max-width: 100%;
 }
 
 .image-gallery {
