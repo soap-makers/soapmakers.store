@@ -132,6 +132,9 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+    position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 #short {
@@ -141,9 +144,6 @@ footer {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 #return-to-top {
