@@ -64,22 +64,8 @@ div.image-section a:focus {
     text-decoration: none;
 }
 
-.paypal-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #009cde;
-    color: #ffffff;
-    text-decoration: none;
-    border: 1px solid #009cde;
-    border-radius: 4px;
-    font-size: 16px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* PayPal font */
-    font-weight: bold;
-    font-style: italic;
-}
-
 body {
-  min-height: 100vh;
+  min-height: 100%;
     font-family: Arial;
     margin: 0;
     padding: 0;
@@ -173,4 +159,18 @@ footer {
 #return-to-top:active {
     background-color: #007bff; 
     opacity: 1; 
+}
+
+.paypal-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #009cde;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #009cde;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* PayPal font */
+    font-weight: bold;
+    font-style: italic;
 }
