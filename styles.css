@@ -65,11 +65,13 @@ div.image-section a:focus {
 }
 
 main {
-    padding-bottom: 100px; /* Adjust as necessary to create space for the footer */
+  flex: 1;
 }
 
 body {
   position: relative;
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
     font-family: Arial;
     margin: 0;
@@ -129,9 +131,9 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-    position: absolute;
+    position: sticky;
+  margin-top: auto;
   bottom: 0;
-  width: 100%;
 }
 
 #short {
