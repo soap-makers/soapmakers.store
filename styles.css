@@ -1,7 +1,9 @@
 .logo {
     height: 6em; /* Adjust as needed */
     display: inline-block;
-    overflow: hidden;
+    max-width: 100%;
+    overflow: hidden; /* Hide any content that exceeds the bounds of the logo container */
+    margin: 0 -10px; /* Example of using negative margins to hide the excess content */
 }
 
 .image-gallery {
