@@ -21,8 +21,6 @@ section {
   flex-grow: 1; /* Allow section to grow and take up remaining space */
   padding: 20px;
   margin: 20px auto;
-  max-width: 800px;
-  min-width: auto;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
