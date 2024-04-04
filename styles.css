@@ -6,6 +6,12 @@
   width: 100%;
   overflow-x: auto;
   white-space: nowrap; /* Ensures images stay in a single line */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+.image-gallery::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
 }
 
 .image-container {
@@ -36,17 +42,19 @@
 div.image-section {
     color: black;
     width: 100%;
-    height: auto; /* Allow the section height to adjust based on content */
-    max-height: 100vh; /* Limit the maximum height of the section to the viewport height */
+    height: auto;
+    max-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff; /* Optional: Set a background color for the section */
+    background-color: #ffffff;
+    overflow: hidden; /* Prevent content from exceeding bounds */
 }
-
-div.image-section a {
-    text-decoration: none; /* Remove underline for the link */
-    color: black; 
+div.image-section img {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    height: auto;
+    text-decoration: none;
+    color: black;
 }
 
 div.image-section a:hover,
