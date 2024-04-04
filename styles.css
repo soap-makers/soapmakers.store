@@ -68,8 +68,7 @@ html {
   height: 100%;
 
 body {
-  display; flex;
-  flex-direction: column;
+  position: relative;
   min-height: 100vh;
     font-family: Arial;
     margin: 0;
@@ -111,6 +110,10 @@ nav ul li a {
     color: white;
 }
 
+main {
+  margin-bottom: 20px auto;
+}
+
 section {
     padding: 20px;
     margin: 20px auto;
@@ -120,16 +123,11 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-section:not(#short) {
-    flex-shrink: 0; /* Prevent non-last sections from shrinking */
-}
-
 section h2 {
     text-align: center;
 }
 
 footer {
-  flex-shrink: 0;
     background-color: #333;
     color: white;
     text-align: center;
@@ -137,7 +135,9 @@ footer {
 }
 
 #short {
-  flex-grow: 1;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 #return-to-top {
