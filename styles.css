@@ -190,10 +190,10 @@ footer p {
 .paypalcard-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #f0f0f0;
-    color: #000;
+    background-color: #000;
+    color: #ffffff;
     text-decoration: none;
-    border: 1px solid #009cde;
+    border: 1px solid #000;
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
