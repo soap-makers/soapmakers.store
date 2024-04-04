@@ -134,11 +134,24 @@ section h2 {
 footer {
     background-color: #333;
     color: white;
-    text-align: center;
     padding: 20px;
   margin-top: auto;
   bottom: 0;
   width: 100%; /* Match the width of the header */
+  text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center; /* Center-align the content within the footer */
+    padding: 20px;
+    width: 100%;
+}
+
+/* Optionally, you can style specific elements within the footer to ensure proper centering */
+footer p {
+    margin: 0; /* Reset margin for paragraphs */
 }
 
 #return-to-top {
