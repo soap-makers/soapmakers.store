@@ -69,6 +69,7 @@ main {
 }
 
 body {
+  justify-content: space-between;
   overflow-x: hidden; /* Prevent horizontal scrolling */
   position: relative;
   display: flex;
