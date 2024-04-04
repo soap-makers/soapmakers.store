@@ -79,6 +79,7 @@ div.image-section a:focus {
 }
 
 body {
+  min-height: 100%
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
