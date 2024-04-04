@@ -79,7 +79,6 @@ div.image-section a:focus {
 }
 
 body {
-  justify-content: space-between;
     font-family: Arial;
     margin: 0;
     padding: 0;
@@ -121,6 +120,9 @@ nav ul li a {
 }
 
 section {
+  display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: space-between; /* Push content to the top and bottom */
   min-height: 100vh;
     padding: 20px;
     margin: 20px auto;
