@@ -1,6 +1,6 @@
 /* Styles for dark mode */
 @media (prefers-color-scheme: dark) {
-    #logo {
+    .logo {
         content: url('assets/images/darklogo.png');
     }
 }
