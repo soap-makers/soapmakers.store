@@ -1,3 +1,9 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --force-light-mode: 1;
+    }
+}
+
 .logo {
     height: 7em; /* Adjust as needed */
     display: inline-block;
@@ -135,17 +141,6 @@ footer {
 /* Optionally, you can style specific elements within the footer to ensure proper centering */
 footer p {
     margin: 0; /* Reset margin for paragraphs */
-}
-
-/* Styles for header in Microsoft Edge in dark mode */
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (prefers-color-scheme: dark) {
-        .logo {
-        content: url('assets/images/lightlogo.png');
-    }
-    
-    header {
-        background-color: #ede7dc; /* Background color for Edge browser in dark mode */
-    }
 }
 
 #return-to-top {
