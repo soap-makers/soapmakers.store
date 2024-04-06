@@ -1,6 +1,7 @@
+/* Styles for dark mode */
 @media (prefers-color-scheme: dark) {
-    header {
-        background-color: #3498db;
+    #logo {
+        content: url('assets/images/darklogo.png');
     }
 }
 
