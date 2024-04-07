@@ -28,4 +28,4 @@ This website is maintained by SOAPMAKERS. Feel free to reach out to us with any 
 
 ## License
 
-This project is licensed under the [PRIVATE LICENSE](LICENSE).
+This project is licensed under a [PRIVATE LICENSE](LICENSE).
