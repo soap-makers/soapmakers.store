@@ -1,8 +1,9 @@
 .logo {
-  text-lign: center;
+  text-align: center;
   font-family: Arial, sans-serif;
   position: relative;
   margin-top: 25px;
+  margin-bottom: 0px;
 }
 
 .soap {
@@ -10,11 +11,11 @@
   color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
-  font-family: "Hoefler Text", serif
+  font-family: "Hoefler Text", serif;
 }
 
 .soapmakers {
-  font-size: 70px;
+  font-size: 26px;
   color: #594c3b;
   font-family: "Didot", serif;
   text-transform: uppercase;
