@@ -177,8 +177,9 @@ footer p {
     border: 1px solid #000;
     border-radius: 4px;
     font-size: 16px;
-    cursor: pointer;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* PayPal font */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
 }
 
 .paypal-button {
@@ -190,8 +191,7 @@ footer p {
     border: 1px solid #2F6EB4;
     border-radius: 4px;
     font-size: 16px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* PayPal font */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-style: italic;
-    cursor: pointer;
 }
