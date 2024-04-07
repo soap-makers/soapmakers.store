@@ -180,8 +180,8 @@ footer p {
     background-color: #000;
     color: #ffffff;
     text-decoration: none;
-    border: none;
-    border-radius: 0;
+    border: 1px solid #000;
+    border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* PayPal font */
