@@ -24,8 +24,8 @@ Feel free to explore our website to discover our range of products, learn more a
 
 ## Author
 
-This website is maintained by [Your Name or Business Name]. Feel free to reach out to us with any questions or feedback.
+This website is maintained by SOAPMAKERS. Feel free to reach out to us with any questions or feedback.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [PRIVATE LICENSE](LICENSE).
