@@ -1,7 +1,30 @@
 .logo {
-    height: 7em; /* Adjust as needed */
-    display: inline-block;
-    max-width: 100%;
+  text-lign: center;
+  font-family: Arial, sans-serif;
+  position: relative;
+  margin-top: 25px;
+}
+
+.soap {
+  font-size: 70px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Hoefler Text", serif
+}
+
+.soapmakers {
+  font-size: 70px;
+  color: #594c3b;
+  font-family: "Didot", serif;
+  text-transform: uppercase;
+  position: absolute;
+  top: 18.5%;
+  left: 50.2%;
+  transform: translateX(-50%);
+  letter-spacing: 4.2px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #594c3b;
 }
 
 .image-gallery {
@@ -85,7 +108,7 @@ body {
 
 header {
     background-color: #3498db;
-    color: white;
+    color: #594c3b;
     padding: 20px;
     text-align: center;
 }
@@ -104,7 +127,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #594c3b;
 }
 
 section {
