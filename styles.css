@@ -128,6 +128,24 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    color: #594c3b;
+}
+
+foot ul {
+    list-style-type: none;
+    display: inline-block; /* Make the list items display inline-block to align within the header */
+    margin: 0 auto;
+    padding: 0;
+}
+
+foot ul li {
+    display: inline-block;
+    margin: 0 10px auto; /* Adjust margin for spacing between items */
+}
+
+foot ul li a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 section {
