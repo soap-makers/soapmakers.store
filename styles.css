@@ -8,6 +8,16 @@ article a:vistied {
   color: black;
 }
 
+#news,
+#news a,
+#news a:hover,
+#news a:active,
+#news a:focus,
+#news a:vistied {
+  text-decoration: none;
+  color: black;
+}
+
 .logo {
   text-align: center;
   font-family: Arial, sans-serif;
