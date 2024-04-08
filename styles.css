@@ -218,6 +218,7 @@ footer p {
     border-radius: 4px;
     font-size: 16px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    vertical-align: middle;
 }
 
 .paypal-button {
@@ -232,4 +233,5 @@ footer p {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-style: italic;
+    vertical-align: middle;
 }
