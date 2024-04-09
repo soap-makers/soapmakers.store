@@ -1,4 +1,3 @@
-article,
 article a,
 article a:hover,
 article a:active,
@@ -8,7 +7,6 @@ article a:vistied {
   color: black;
 }
 
-div.post,
 div.post a,
 div.post a:hover,
 div.post a:active,
