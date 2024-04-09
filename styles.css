@@ -1,19 +1,12 @@
-article a,
-article a:hover,
-article a:active,
-article a:focus,
-article a:visited {
-  text-decoration: none;
-  color: black;
-}
-
 div.post a,
-div.post a:hover,
-div.post a:active,
 div.post a:focus,
 div.post a:visited {
   text-decoration: none;
   color: black;
+}
+
+a {
+  display: inline-block;
 }
 
 .logo {
@@ -55,7 +48,7 @@ div.post a:visited {
 }
 
 .image-gallery::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, and Opera */
+  display: none; /* Chrome, Safari, and Opera */
 }
 
 .image-container {
@@ -84,28 +77,26 @@ div.post a:visited {
 }
 
 div.image-section {
-    width: 100%;
-    height: auto;
-    max-height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
 }
 
 div.image-section img {
   max-height: 100%;
-    max-width: 100%; /* Ensure image doesn't exceed container width */
-    height: auto;
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  height: auto;
 }
 
 div.image-section a,
-div.image-section a:hover,
-div.image-section a:active,
 div.image-section a:visited,
 div.image-section a:focus {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 main {
@@ -118,138 +109,138 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-    font-family: Arial;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-    text-align: justify;
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  text-align: justify;
 }
 
 header {
-    background-color: #ede8de;
-    color: #594c3b;
-    padding: 20px;
-    text-align: center;
+  background-color: #ede8de;
+  color: #594c3b;
+  padding: 20px;
+  text-align: center;
 }
 
 nav ul {
-    list-style-type: none;
-    display: inline-block; /* Make the list items display inline-block to align within the header */
-    margin: 0 auto;
-    padding: 0;
+  list-style-type: none;
+  display: inline-block; /* Make the list items display inline-block to align within the header */
+  margin: 0 auto;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 0 10px auto; /* Adjust margin for spacing between items */
+  display: inline-block;
+  margin: 0 10px auto; /* Adjust margin for spacing between items */
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #594c3b;
+  text-decoration: none;
+  color: #594c3b;
 }
 
 foot ul {
-    list-style-type: none;
-    display: inline-block; /* Make the list items display inline-block to align within the header */
-    margin: 0 auto;
-    padding: 0;
+  list-style-type: none;
+  display: inline-block; /* Make the list items display inline-block to align within the header */
+  margin: 0 auto;
+  padding: 0;
 }
 
 foot ul li {
-    display: inline-block;
-    margin: 0 10px auto; /* Adjust margin for spacing between items */
+  display: inline-block;
+  margin: 0 10px auto; /* Adjust margin for spacing between items */
 }
 
 foot ul li a {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 section {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    max-height: 100%;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  max-height: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-    text-align: center;
+  text-align: center;
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    width: 100%;
-    margin-top: auto;
-    margin-bottom: 0;
-    text-align: center; /* Center-align the content within the footer */
-    box-sizing: border-box;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: 0;
+  text-align: center; /* Center-align the content within the footer */
+  box-sizing: border-box;
 }
 
 /* Optionally, you can style specific elements within the footer to ensure proper centering */
 footer p {
-    margin: 0; /* Reset margin for paragraphs */
+  margin: 0; /* Reset margin for paragraphs */
 }
 
 #return-to-top {
   z-index: 999;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    display: block;
-    opacity: 0.3;
-    transition: opacity 0.3s ease;
-    cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;
+  opacity: 0.3;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
 }
 
 #return-to-top:hover {
-    background-color: #007bff; 
-    opacity: 0.8; 
+  background-color: #007bff; 
+  opacity: 0.8; 
 }
 
 #return-to-top:visited {
-    background-color: #007bff; 
-    opacity: 0.3; 
+  background-color: #007bff; 
+  opacity: 0.3; 
 }
 
 #return-to-top:active {
-    background-color: #007bff; 
-    opacity: 1; 
+  background-color: #007bff; 
+  opacity: 1; 
 }
 
 .paypalcard-button {
-    display: inline-block;
-    padding: 11px 20px;
-    background-color: #000;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: 16px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    vertical-align: middle;
+  display: inline-block;
+  padding: 11px 20px;
+  background-color: #000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  vertical-align: middle;
 }
 
 .paypal-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #2F6EB4;
-    color: #ffffff;
-    text-decoration: none;
-    border: 1px solid #2F6EB4;
-    border-radius: 4px;
-    font-size: 16px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    vertical-align: middle;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2F6EB4;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #2F6EB4;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  vertical-align: middle;
 }
