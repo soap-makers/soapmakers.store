@@ -2,7 +2,7 @@ article a,
 article a:hover,
 article a:active,
 article a:focus,
-article a:vistied {
+article a:visited {
   text-decoration: none;
   color: black;
 }
@@ -11,7 +11,7 @@ div.post a,
 div.post a:hover,
 div.post a:active,
 div.post a:focus,
-div.post a:vistied {
+div.post a:visited {
   text-decoration: none;
   color: black;
 }
