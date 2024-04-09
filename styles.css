@@ -13,12 +13,12 @@ a {
   text-align: center;
   font-family: Arial, sans-serif;
   position: relative;
-  margin-top: 1.55em;
-  margin-bottom: 0em;
+  margin-top: 25px;
+  margin-bottom: 0px;
 }
 
 .soap {
-  font-size: 4.375em;
+  font-size: 70px;
   color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
@@ -26,16 +26,16 @@ a {
 }
 
 .soapmakers {
-  font-size: 1.625em;
+  font-size: 26px;
   color: #594c3b;
   font-family: "Didot", serif;
   text-transform: uppercase;
   position: absolute;
-  top: 18.5%;
-  left: 50.2%;
+  top: 18.7%;
+  left: 50.6%;
   transform: translateX(-50%);
-  letter-spacing: 0.155em;
-  -webkit-text-stroke-width: 0.04em;
+  letter-spacing: 4.05px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #594c3b;
 }
 
