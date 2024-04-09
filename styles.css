@@ -8,12 +8,12 @@ article a:vistied {
   color: black;
 }
 
-.post,
-.post a,
-.post a:hover,
-.post a:active,
-.post a:focus,
-.post a:vistied {
+div.post,
+div.post a,
+div.post a:hover,
+div.post a:active,
+div.post a:focus,
+div.post a:vistied {
   text-decoration: none;
   color: black;
 }
