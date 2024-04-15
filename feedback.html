@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>We Love Your Feedback!</h1>
+    <p>We appreciate you taking the time to provide us with your feedback. Your input helps us improve our products and services to better meet your needs.</p>
+    <form action="mailto:your.email@example.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="satisfaction">Rate your overall satisfaction:</label><br>
+        <input type="number" id="satisfaction" name="satisfaction" min="1" max="5" required><br><br>
+        <label for="rating">Rate your experience:</label><br>
+        <select id="rating" name="rating" required>
+            <option value="" disabled selected>Select rating</option>
+            <option value="5">Excellent</option>
+            <option value="4">Good</option>
+            <option value="3">Average</option>
+            <option value="2">Fair</option>
+            <option value="1">Poor</option>
+        </select><br><br>
+        <label for="ease-of-use">Rate ease of use:</label><br>
+        <select id="ease-of-use" name="ease-of-use" required>
+            <option value="" disabled selected>Select rating</option>
+            <option value="5">Very Easy</option>
+            <option value="4">Easy</option>
+            <option value="3">Neutral</option>
+            <option value="2">Difficult</option>
+            <option value="1">Very Difficult</option>
+        </select><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required placeholder="Please share your feedback, including what you like about our service and how we can improve."></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
