@@ -192,7 +192,9 @@ footer {
 
 /* Optionally, you can style specific elements within the footer to ensure proper centering */
 footer p {
-  margin: 0; /* Reset margin for paragraphs */
+  display: inline-block; /* Make the list items display inline-block to align within the header */
+  margin: 0 10px auto;
+  padding: 0;
 }
 
 #return-to-top {
