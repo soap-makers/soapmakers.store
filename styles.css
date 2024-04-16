@@ -1,9 +1,12 @@
 h1,
-h2,
-h3 {
+h2 {
             text-align: center;
             color: #333;
         }
+        
+h3 {
+  text-align: left;
+}
 
 div.post a,
 div.post a:focus,
