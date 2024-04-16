@@ -131,6 +131,24 @@ header {
   text-align: center;
 }
 
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: 0;
+  text-align: center; /* Center-align the content within the footer */
+  box-sizing: border-box;
+}
+
+/* Optionally, you can style specific elements within the footer to ensure proper centering */
+footer p {
+  display: block; /* Make the list items display inline-block to align within the header */
+  margin: 0 10px auto;
+  padding: 0;
+}
+
 nav ul {
   list-style-type: none;
   display: inline-block; /* Make the list items display inline-block to align within the header */
@@ -177,24 +195,6 @@ section {
 
 section h2 {
   text-align: center;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  padding: 20px;
-  width: 100%;
-  margin-top: auto;
-  margin-bottom: 0;
-  text-align: center; /* Center-align the content within the footer */
-  box-sizing: border-box;
-}
-
-/* Optionally, you can style specific elements within the footer to ensure proper centering */
-footer p {
-  display: inline-block; /* Make the list items display inline-block to align within the header */
-  margin: 0 10px auto;
-  padding: 0;
 }
 
 #return-to-top {
