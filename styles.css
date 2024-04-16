@@ -1,3 +1,8 @@
+ul {
+  list-style-type: none;
+  
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -5,9 +10,9 @@ html {
 
 h1,
 h2 {
-            text-align: center;
-            color: #333;
-        }
+  text-align: center;
+  color: #333;
+}
         
 h3 {
   text-align: left;
