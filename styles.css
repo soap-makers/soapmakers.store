@@ -1,3 +1,8 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
 h1,
 h2 {
             text-align: center;
@@ -138,6 +143,7 @@ footer {
   width: 100%;
   margin-top: auto;
   margin-bottom: 0;
+  margin: 0;
   text-align: center; /* Center-align the content within the footer */
   box-sizing: border-box;
 }
