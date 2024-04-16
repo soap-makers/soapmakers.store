@@ -147,6 +147,7 @@ footer p {
   display: block; /* Make the list items display inline-block to align within the header */
   margin: 0 10px auto;
   padding: 0;
+  font-size: 16px;
 }
 
 nav ul {
