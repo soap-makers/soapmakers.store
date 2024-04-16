@@ -1,3 +1,9 @@
+h1,
+h2 {
+            text-align: center;
+            color: #333;
+        }
+
 div.post a,
 div.post a:focus,
 div.post a:visited {
