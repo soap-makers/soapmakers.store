@@ -3,11 +3,6 @@ ul {
   text-align: left;
 }
 
-html {
-  margin: 0;
-  padding: 0;
-}
-
 h1,
 h2 {
   text-align: center;
@@ -117,9 +112,7 @@ div.image-section img {
   height: auto;
 }
 
-main {
-  flex: 1;
-}
+
 
 html {
     margin: 0;
