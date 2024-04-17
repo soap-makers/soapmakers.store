@@ -121,6 +121,11 @@ main {
   flex: 1;
 }
 
+html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
   justify-content: space-between;
   overflow-x: hidden; /* Prevent horizontal scrolling */
@@ -145,6 +150,7 @@ footer {
   background-color: #333;
   color: white;
   padding: 20px;
+  padding-bottom: 0;
   width: 100%;
   margin-top: auto;
   margin-bottom: 0;
@@ -156,7 +162,7 @@ footer {
 /* Optionally, you can style specific elements within the footer to ensure proper centering */
 footer p {
   display: block; /* Make the list items display inline-block to align within the header */
-  margin: 0 10px auto;
+  margin: 0 auto;
   padding: 0;
   font-size: 16px;
 }
