@@ -112,18 +112,9 @@ div.image-section img {
   height: auto;
 }
 
-
-
-html {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-  
   font-family: Arial;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
   background-color: #f5f5f5;
   text-align: justify;
 }
@@ -142,22 +133,18 @@ footer {
   text-align: center;
 }
 
-/* Optionally, you can style specific elements within the footer to ensure proper centering */
 footer p {
   display: block; /* Make the list items display inline-block to align within the header */
-  margin: 0;
-  padding: 0;
+  margin: 0px;
   font-size: 16px;
-  bottom: 0;
-  left: 0;
 }
 
 nav ul {
   font-weight: bold;
   list-style-type: none;
   display: inline-block; /* Make the list items display inline-block to align within the header */
-  margin: 0 auto;
-  padding: 0;
+  margin: 0px auto;
+  padding: 0px;
 }
 
 nav ul li {
@@ -173,8 +160,8 @@ nav ul li a {
 foot ul {
   list-style-type: none;
   display: inline-block; /* Make the list items display inline-block to align within the header */
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 foot ul li {
