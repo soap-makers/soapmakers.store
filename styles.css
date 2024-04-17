@@ -185,7 +185,7 @@ nav ul li a {
 foot ul {
   list-style-type: none;
   display: inline-block; /* Make the list items display inline-block to align within the header */
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
 }
 
