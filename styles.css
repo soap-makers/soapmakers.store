@@ -120,11 +120,7 @@ html {
 }
 
 body {
-  justify-content: space-between;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  
   font-family: Arial;
   margin: 0;
   padding: 0;
