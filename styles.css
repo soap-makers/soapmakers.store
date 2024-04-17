@@ -136,13 +136,10 @@ header {
 }
 
 footer {
-  position: absolute;
   background-color: #333;
   color: white;
   padding: 20px;
-  width: 100%;
   text-align: center;
-  box-sizing: border-box;
 }
 
 /* Optionally, you can style specific elements within the footer to ensure proper centering */
