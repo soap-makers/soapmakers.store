@@ -175,7 +175,7 @@ foot ul li a {
 }
 
 section {
-  padding: 50px;
+  padding: 40px; auto;
   margin: 20px auto;
   max-width: 1000px;
   max-height: 100%;
