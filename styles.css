@@ -21,7 +21,7 @@ div.post a:visited {
 }
 
 a {
-  display: inline-block;
+  display: block;
 }
 
 .logo {
