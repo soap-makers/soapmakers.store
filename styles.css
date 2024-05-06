@@ -32,8 +32,12 @@ a {
   margin-bottom: 0px;
 }
 
+.soap-container {
+  position: relative;
+}
+
 .soap {
-  font-size: 70px;
+  font-size: 8vw; /* Adjust as needed */
   color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
@@ -41,41 +45,39 @@ a {
 }
 
 .soapmakers {
-  font-size: 26px;
+  font-size: 3vw; /* Adjust as needed */
   color: #594c3b;
   font-family: "Didot", serif;
   text-transform: uppercase;
   position: absolute;
-  top: 19.5%;
-  left: 50.2%;
-  transform: translateX(-50%);
-  letter-spacing: 4.05px;
+  top: 44%;
+  left: 50.25%; /* Adjust as needed */
+  transform: translate(-50%, -50%);
+  letter-spacing: 4.5px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #594c3b;
 }
 
-.co {
-  font-size: 12.3px;
+.co,
+.ptyltd {
+  font-size: 1.4vw; /* Adjust as needed */
   color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
   font-family: "Hoefler Text", serif;
   position: absolute;
-  top: 59%;
-  left: 58%;
-  transform: translateX(-50%);
+}
+
+.co {
+  top: 69%; /* Adjust as needed */
+  left: 62%; /* Adjust as needed */
+  transform: translate(-50%, -50%);
 }
 
 .ptyltd {
-  font-size: 12.3px;
-  color: #ffffff;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: "Hoefler Text", serif;
-  position: absolute;
-  top: 77%;
-  left: 56.4%;
-  transform: translateX(-50%);
+  top: 85%; /* Adjust as needed */
+  left: 59.56%; /* Adjust as needed */
+  transform: translate(-50%, -50%);
 }
 
 .image-gallery {
