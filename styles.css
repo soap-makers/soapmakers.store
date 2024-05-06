@@ -54,6 +54,28 @@ a {
   -webkit-text-stroke-color: #594c3b;
 }
 
+.co {
+  font-size: 12.3px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Hoefler Text", serif;
+  position: absolute;
+  top: 59%;
+  left: 56.65%;
+}
+
+.ptyltd {
+  font-size: 12.3px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Hoefler Text", serif;
+  position: absolute;
+  top: 77%;
+  left: 53.6%;
+}
+
 .image-gallery {
   width: 100%;
   overflow-x: auto;
