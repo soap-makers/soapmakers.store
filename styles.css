@@ -62,7 +62,8 @@ a {
   font-family: "Hoefler Text", serif;
   position: absolute;
   top: 59%;
-  left: 56.65%;
+  left: 58%;
+  transform: translateX(-50%);
 }
 
 .ptyltd {
@@ -73,7 +74,8 @@ a {
   font-family: "Hoefler Text", serif;
   position: absolute;
   top: 77%;
-  left: 53.6%;
+  left: 56.4%;
+  transform: translateX(-50%);
 }
 
 .image-gallery {
