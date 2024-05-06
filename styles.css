@@ -24,60 +24,10 @@ a {
   display: inline;
 }
 
-.logo {
-  text-align: center;
-  font-family: Arial, sans-serif;
-  position: relative;
-  margin-top: 25px;
-  margin-bottom: 0px;
-}
-
-.soap-container {
-  position: relative;
-}
-
-.soap {
-  font-size: 70px; /* Adjust as needed */
-  color: #ffffff;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: "Hoefler Text", serif;
-}
-
-.soapmakers {
-  font-size: 26px; /* Adjust as needed */
-  color: #594c3b;
-  font-family: "Didot", serif;
-  text-transform: uppercase;
-  position: absolute;
-  top: 44%;
-  left: 50.25%; /* Adjust as needed */
-  transform: translate(-50%, -50%);
-  letter-spacing: 4.5px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #594c3b;
-}
-
-.co,
-.ptyltd {
-  font-size: 12.3px; /* Adjust as needed */
-  color: #ffffff;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: "Hoefler Text", serif;
-  position: absolute;
-}
-
-.co {
-  top: 68%; /* Adjust as needed */
-  left: 61.47%; /* Adjust as needed */
-  transform: translate(-50%, -50%);
-}
-
-.ptyltd {
-  top: 85%; /* Adjust as needed */
-  left: 59.17%; /* Adjust as needed */
-  transform: translate(-50%, -50%);
+.title img {
+  width: 20%; /* Ensure image doesn't exceed container width */
+  min-width: 400px;
+  height: auto;
 }
 
 .image-gallery {
