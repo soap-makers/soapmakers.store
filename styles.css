@@ -1,3 +1,29 @@
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #333;
+}
+        
+h3 {
+  text-align: left;
+}
+
+div.post a,
+div.post a:focus,
+div.post a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  display: inline;
+}
+
 .logo {
   text-align: center;
   font-family: Arial, sans-serif;
@@ -86,6 +112,11 @@ div.image-section img {
   height: auto;
 }
 
+main {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 body {
   font-family: Arial;
   margin: 0px;
@@ -94,30 +125,26 @@ body {
   font-size: 16px;
 }
 
-ul {
-  list-style-type: none;
-  text-align: left;
+/* Media query for mobile devices */
+@media screen and (max-width: 600px) {
+  section {
+    max-width: 100%;
+    padding: 10px;
+  }
 }
 
-h1,
-h2 {
+section {
+  padding: 40px; auto;
+  margin: 20px auto;
+  max-width: 800px;
+  max-height: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
   text-align: center;
-  color: #333;
-}
-        
-h3 {
-  text-align: left;
-}
-
-div.post a,
-div.post a:focus,
-div.post a:visited {
-  text-decoration: none;
-  color: black;
-}
-
-a {
-  display: inline;
 }
 
 header {
@@ -125,6 +152,19 @@ header {
   color: #594c3b;
   padding: 20px;
   text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  display: block; /* Make the list items display inline-block to align within the header */
+  margin: 0px;
+  font-size: 16px;
 }
 
 nav ul {
@@ -143,48 +183,6 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #594c3b;
-}
-
-main {
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 16px;
-}
-
-/* Media query for mobile devices */
-@media screen and (max-width: 600px) {
-  section {
-    font-size: 16px;
-  }
-}
-
-section {
-  padding: 40px; auto;
-  margin: 20px auto;
-  max-width: 800px;
-  max-height: 100%;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  font-size: 16px;
-}
-
-section h2 {
-  text-align: center;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  font-size: 16px;
-}
-
-footer p {
-  display: block; /* Make the list items display inline-block to align within the header */
-  margin: 0px;
-  font-size: 16px;
 }
 
 foot ul {
