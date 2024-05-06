@@ -89,6 +89,7 @@ div.image-section img {
 }
 
 body {
+  font-size: 16px;
   font-family: Arial;
   margin: 0px;
   background-color: #f5f5f5;
@@ -96,6 +97,7 @@ body {
 }
 
 main {
+  font-size: 16px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -160,19 +162,19 @@ foot ul li a {
 @media screen and (max-width: 600px) {
   section {
     max-width: 100%;
-    padding: 10px;
     font-size: 16px;
   }
 }
 
 section {
-  padding: 40px; auto;
+  padding: 30px; auto;
   margin: 20px auto;
   max-width: 800px;
   max-height: 100%;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
 }
 
 section h2 {
