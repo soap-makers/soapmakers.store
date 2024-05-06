@@ -37,7 +37,7 @@ a {
 }
 
 .soap {
-  font-size: 8vw; /* Adjust as needed */
+  font-size: 70px; /* Adjust as needed */
   color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
@@ -45,7 +45,7 @@ a {
 }
 
 .soapmakers {
-  font-size: 3vw; /* Adjust as needed */
+  font-size: 26px; /* Adjust as needed */
   color: #594c3b;
   font-family: "Didot", serif;
   text-transform: uppercase;
@@ -60,7 +60,7 @@ a {
 
 .co,
 .ptyltd {
-  font-size: 1.4vw; /* Adjust as needed */
+  font-size: 12.3px; /* Adjust as needed */
   color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
@@ -69,14 +69,14 @@ a {
 }
 
 .co {
-  top: 69%; /* Adjust as needed */
-  left: 62%; /* Adjust as needed */
+  top: 68%; /* Adjust as needed */
+  left: 61.47%; /* Adjust as needed */
   transform: translate(-50%, -50%);
 }
 
 .ptyltd {
   top: 85%; /* Adjust as needed */
-  left: 59.56%; /* Adjust as needed */
+  left: 59.17%; /* Adjust as needed */
   transform: translate(-50%, -50%);
 }
 
