@@ -181,6 +181,10 @@ section h2 {
   text-align: center;
 }
 
+#contents  {
+  text-align: center;
+}
+
 #end {
   background-color: color(srgb 0.929 0.9099 0.869);
   max-width: 800px;
