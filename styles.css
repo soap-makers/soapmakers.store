@@ -115,7 +115,7 @@ footer {
   text-align: center;
   font-size: 16px;
   text-decoration: none;
-  display: inline-block;
+  display: block;
 }
 
 footer p {
