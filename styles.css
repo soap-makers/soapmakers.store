@@ -115,13 +115,13 @@ footer {
   text-align: center;
   font-size: 16px;
   text-decoration: none;
+  display: block;
 }
 
 footer p {
-  display: inline-block;
   text-decoration: none;
   display: inline-block; /* Make the list items display inline-block to align within the header */
-  margin: 0px;
+  margin: 0px auto;
   font-size: 16px;
 }
 
@@ -146,7 +146,7 @@ nav ul li a {
 foot ul {
   list-style-type: none;
   display: inline-block; /* Make the list items display inline-block to align within the header */
-  margin: 0px;
+  margin: 0px auto;
   padding: 0px;
 }
 
