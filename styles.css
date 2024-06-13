@@ -115,10 +115,11 @@ footer {
   text-align: center;
   font-size: 16px;
   text-decoration: none;
-  display: block;
+  
 }
 
 footer p {
+  list-style-type: none;
   text-decoration: none;
   display: inline-block; /* Make the list items display inline-block to align within the header */
   margin: 0px auto;
