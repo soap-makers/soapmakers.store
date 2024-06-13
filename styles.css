@@ -118,6 +118,7 @@ footer {
 }
 
 footer p {
+  display: inline-block;
   text-decoration: none;
   display: block; /* Make the list items display inline-block to align within the header */
   margin: 0px;
