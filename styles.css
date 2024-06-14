@@ -25,7 +25,6 @@ a {
   justify-content: center;
   align-items: center;
   display: inline-block;
-  
 }
 
 p {
@@ -110,12 +109,6 @@ body {
   text-align: justify;
 }
 
-main {
-  padding: 30px; auto;
-  margin: 20px auto;
-  text-align: center;
-}
-
 header {
   background-color: #ede8de;
   color: #594c3b;
@@ -136,7 +129,7 @@ footer {
   margin: 0px auto;
 }
 
-foot p {
+footer p {
   text-align: center;
   margin: 0px auto;
   padding: 0px;
@@ -169,7 +162,7 @@ foot ul {
 
 foot ul li {
   text-align: center;
-  display: block;
+  display: inline-block;
   margin: 0 10px auto; /* Adjust margin for spacing between items */
 }
 
@@ -197,7 +190,6 @@ foot ul li a {
 
 section {
   text-decoration: none;
-  display: inline-block;
   text-align: justify;
   font-size: 16px;
   padding: 30px; auto;
@@ -215,23 +207,6 @@ section a {
 
 section h2 {
   text-align: center;
-}
-
-#contents {
-  text-align: justify;
-}
-
-#contents p {
-  text-align: justify;
-  justify-content: center;
-  align-items: center;
-}
-
-#contents a {
-  text-align: justify;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
 }
 
 #end {
