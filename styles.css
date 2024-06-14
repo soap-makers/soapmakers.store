@@ -185,7 +185,7 @@ foot ul li a {
 }
 
 section {
-  display: inline-block;
+  display: block;
   text-align: justify;
   font-size: 16px;
   padding: 30px; auto;
@@ -202,16 +202,11 @@ section h2 {
 }
 
 #contents  {
-  padding: 30px; auto;
-  margin: 20px auto;
-  display: inline-block;
   text-align: center;
   font-size: 16px;
 }
 
 #end {
-  padding: 30px; auto;
-  margin: 20px auto;
   text-align: justify;
   font-size: 16px;
   background-color: color(srgb 0.929 0.9099 0.869);
