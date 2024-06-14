@@ -21,6 +21,7 @@ div.post a:visited {
 }
 
 a {
+  font-size: 16px;
   display: inline-block;
 }
 
@@ -85,7 +86,6 @@ div.image-section {
 div.image-section img {
   max-height: 100vh;
   max-width: 100%; /* Ensure image doesn't exceed container width */
-  height: auto;
 }
 
 body {
@@ -188,11 +188,17 @@ section {
   font-size: 16px;
 }
 
+section a,
+  section p {
+  font-size: 16px;
+  display: inline-block;
+}
+
 section h2 {
   text-align: center;
 }
 
-#contents  {
+#contents {
   text-align: center;
 }
 
