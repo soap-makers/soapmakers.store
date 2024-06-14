@@ -21,6 +21,7 @@ div.post a:visited {
 }
 
 a {
+  font-size: 16px;
   display: inline-block;
 }
 
@@ -88,6 +89,7 @@ div.image-section img {
 }
 
 body {
+  font-size: 16px;
   display: block;
   font-family: Arial;
   margin: 0px;
@@ -96,6 +98,7 @@ body {
 }
 
 main {
+  font-size: 16px;
   text-align: justify;
   padding-left: 20px;
   padding-right: 20px;
@@ -168,7 +171,7 @@ foot ul li a {
 /* Media query for mobile devices */
 @media screen and (max-width: 1000px) {
   section {
-  
+  font-size: 16px;
   text-decoration: none;
   display: block;
   text-align: justify;
@@ -184,6 +187,7 @@ foot ul li a {
 
 @media screen and (max-width: 1000px) {
   section a {
+    font-size: 16px;
   }
 }
 
@@ -191,7 +195,7 @@ section {
   text-decoration: none;
   display: block;
   text-align: justify;
-  
+  font-size: 16px;
   padding: 30px; auto;
   margin: 20px auto;
   max-width: 800px;
@@ -207,22 +211,23 @@ section h2 {
 
 #contents {
   text-align: justify;
-  
+  font-size: 16px;
 }
 
 #contents p {
   text-align: justify;
-  
+  font-size: 16px;
 }
 
 #contents a {
   text-decoration: none;
   text-align: justify;
+  font-size: 16px;
 }
 
 #end {
   text-align: justify;
-  
+  font-size: 16px;
   background-color: color(srgb 0.929 0.9099 0.869);
   max-width: 800px;
   border-radius: 5px;
