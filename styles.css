@@ -194,6 +194,7 @@ foot ul li a {
 }
 
 section {
+  text-decoration: none;
   display: block;
   text-align: justify;
   font-size: 16px;
@@ -211,6 +212,7 @@ section h2 {
 }
 
 #contents {
+  text-decoration: none;
   text-align: justify;
   font-size: 16px;
 }
