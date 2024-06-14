@@ -88,6 +88,7 @@ div.image-section img {
 }
 
 article {
+  text-align: justify;
   list-style-type: none;
   text-decoration: none;
   display: inline-block; /* Make the list items display inline-block to align within the header */
@@ -97,6 +98,7 @@ article {
 }
 
 body {
+  
   font-size: 16px;
   font-family: Arial;
   margin: 0px;
@@ -105,6 +107,7 @@ body {
 }
 
 main {
+  text-align: justify;
   font-size: 16px;
   padding-left: 20px;
   padding-right: 20px;
