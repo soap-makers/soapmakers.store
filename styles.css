@@ -102,6 +102,7 @@ main {
 }
 
 header {
+  font-size: 16px;
   background-color: #ede8de;
   color: #594c3b;
   padding: 20px;
