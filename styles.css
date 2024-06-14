@@ -27,7 +27,7 @@ a {
 .title img {
   width: 20%; /* Ensure image doesn't exceed container width */
   min-width: 300px;
-  height: auto;
+  height: 100px;
 }
 
 .image-gallery {
