@@ -32,8 +32,7 @@ p {
   text-align: justify;
   justify-content: center;
   align-items: center;
-  
-  display: inline-block;
+  font-size: 16px;
 }
 
 .title img {
@@ -104,7 +103,7 @@ div.image-section img {
 }
 
 body {
-  
+  font-size: 16px;
   display: block;
   font-family: Arial;
   margin: 0px;
@@ -133,11 +132,12 @@ footer {
   text-align: center;
   
   text-decoration: none;
-  display: block;
+  display: inline-block;
   margin: 0px auto;
 }
 
 footer p {
+  text-align: justify;
   list-style-type: none;
   text-decoration: none;
   display: inline-block; /* Make the list items display inline-block to align within the header */
@@ -163,6 +163,7 @@ nav ul li a {
 }
 
 foot ul {
+  text-align: center;
   list-style-type: none;
   display: inline-block; /* Make the list items display inline-block to align within the header */
   margin: 0px auto;
@@ -200,7 +201,7 @@ section {
   text-decoration: none;
   display: block;
   text-align: justify;
-  
+  font-size: 16px;
   padding: 30px; auto;
   margin: 20px auto;
   max-width: 800px;
