@@ -88,18 +88,8 @@ div.image-section img {
   height: auto;
 }
 
-article {
-  text-align: justify;
-  list-style-type: none;
-  text-decoration: none;
-  display: inline-block; /* Make the list items display inline-block to align within the header */
-  margin: 0px auto;
-  padding: 0px;
-  font-size: 16px;
-}
-
 body {
-  
+  display: block;
   font-size: 16px;
   font-family: Arial;
   margin: 0px;
