@@ -111,6 +111,8 @@ body {
 }
 
 main {
+  padding: 30px; auto;
+  margin: 20px auto;
   text-align: center;
 }
 
@@ -200,7 +202,6 @@ section {
   font-size: 16px;
   padding: 30px; auto;
   margin: 20px auto;
-  max-width: 800px;
   max-height: 100%;
   background-color: #fff;
   border-radius: 5px;
