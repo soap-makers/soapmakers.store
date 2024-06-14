@@ -221,6 +221,11 @@ section h2 {
   font-size: 16px;
 }
 
+#contents p {
+  text-align: justify;
+  font-size: 16px;
+}
+
 #contents a {
   text-decoration: none;
   text-align: justify;
