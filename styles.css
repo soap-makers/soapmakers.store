@@ -172,8 +172,7 @@ foot ul li a {
 
 /* Media query for mobile devices */
 @media screen and (max-width: 1000px) {
-  section, 
-  section a {
+  section {
   text-decoration: none;
   display: block;
   text-align: justify;
@@ -185,6 +184,12 @@ foot ul li a {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  section a {
+  font-size: 16px;
   }
 }
 
