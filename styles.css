@@ -130,6 +130,7 @@ footer p {
 }
 
 nav ul {
+  font-size: 16px;
   font-weight: bold;
   list-style-type: none;
   display: inline-block; /* Make the list items display inline-block to align within the header */
