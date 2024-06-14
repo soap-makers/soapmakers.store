@@ -204,13 +204,16 @@ section h2 {
 }
 
 #contents  {
-  text-align: justify;
   padding: 30px; auto;
   margin: 20px auto;
+  display: block;
+  text-align: center;
   font-size: 16px;
 }
 
 #end {
+  padding: 30px; auto;
+  margin: 20px auto;
   text-align: justify;
   font-size: 16px;
   background-color: color(srgb 0.929 0.9099 0.869);
