@@ -251,17 +251,17 @@ section h2 {
 }
 
 #return-to-top:hover {
-  background-color: #fff; 
+  background-color: #3d1c00; 
   opacity: 0.8; 
 }
 
 #return-to-top:visited {
-  background-color: #fff; 
+  background-color: #3d1c00; 
   opacity: 0.3; 
 }
 
 #return-to-top:active {
-  background-color: #fff; 
+  background-color: #3d1c00; 
   opacity: 1; 
 }
 
