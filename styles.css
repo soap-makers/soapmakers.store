@@ -195,6 +195,7 @@ section h2 {
   max-width: 800px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: color(srgb 0.929 0.9099 0.869);
 }
 
 #return-to-top {
