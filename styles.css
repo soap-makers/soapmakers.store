@@ -179,7 +179,6 @@ foot ul li a {
   section {
   list-style-type: none;
   text-decoration: none;
-  display: inline-block; /* Make the list items display inline-block to align within the header */
   margin: 0px auto;
   padding: 0px;
   font-size: 16px;
@@ -189,7 +188,6 @@ foot ul li a {
 }
 
 section {
-  list-style-type: none;
   text-decoration: none; 
   font-size: 16px;
   padding: 30px; auto;
@@ -206,7 +204,6 @@ section h2 {
 }
 
 #contents  {
-  list-style-type: none;
   text-decoration: none;
   margin: 0px auto;
   padding: 0px;
@@ -215,7 +212,6 @@ section h2 {
 }
 
 #end {
-  list-style-type: none;
   text-decoration: none;
   margin: 0px auto;
   padding: 0px;
