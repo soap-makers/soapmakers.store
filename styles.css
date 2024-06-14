@@ -29,8 +29,8 @@ a {
   width: 20%; /* Ensure image doesn't exceed container width */
   min-width: 300px;
   height: auto;
-  max-height: 100vh;
-  max-width: 300px;
+  max-height: 500px;
+  width: 300px;
 }
 
 .image-gallery {
@@ -54,6 +54,7 @@ a {
 }
 
 .image-container img {
+  height: 500px;
   width: 100%; /* Ensures images fill the container */
   display: block;
 }
@@ -86,6 +87,7 @@ div.image-section {
 }
 
 div.image-section img {
+  height: 500px;
   max-width: 100%; /* Ensure image doesn't exceed container width */
   height: auto;
 }
@@ -100,10 +102,6 @@ body {
 }
 
 main {
-  font-size: 16px;
-  text-align: justify;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 header {
