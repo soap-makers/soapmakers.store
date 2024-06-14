@@ -28,7 +28,7 @@ a {
   width: 20%; /* Ensure image doesn't exceed container width */
   min-width: 300px;
   height: auto;
-  padding: 20px;
+  margin: 20px auto
 }
 
 .image-gallery {
@@ -132,7 +132,7 @@ nav ul {
   list-style-type: none;
   display: inline-block; /* Make the list items display inline-block to align within the header */
   margin: 0px auto;
-  padding: 10px;
+  padding: 5px;
 }
 
 nav ul li {
