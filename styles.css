@@ -64,7 +64,7 @@ p {
 }
 
 .image-container img {
-  height: 500px;
+  height: auto;
   width: 100%; /* Ensures images fill the container */
   display: block;
 }
@@ -89,7 +89,6 @@ div.image-section a {
 div.image-section {
   width: 100%;
   height: auto;
-  max-height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,7 +96,7 @@ div.image-section {
 }
 
 div.image-section img {
-  height: 500px;
+  max-height: auto;
   max-width: 100%; /* Ensure image doesn't exceed container width */
   height: auto;
 }
@@ -112,10 +111,10 @@ body {
 }
 
 main {
+  text-align: center;
 }
 
 header {
-  
   background-color: #ede8de;
   color: #594c3b;
   padding: 20px;
@@ -130,16 +129,13 @@ footer {
   color: white;
   padding: 20px;
   text-align: center;
+  display: block;
   text-decoration: none;
-  display: inline-block;
   margin: 0px auto;
 }
 
 footer p {
   text-align: center;
-  list-style-type: none;
-  text-decoration: none;
-  display: inline-block; /* Make the list items display inline-block to align within the header */
   margin: 0px auto;
   padding: 0px;
 }
@@ -164,13 +160,13 @@ nav ul li a {
 foot ul {
   text-align: center;
   list-style-type: none;
-  display: inline-block; /* Make the list items display inline-block to align within the header */
+  display: block; /* Make the list items display inline-block to align within the header */
   margin: 0px auto;
   padding: 0px;
 }
 
 foot ul li {
-  display: inline-block;
+  display: block;
   margin: 0 10px auto; /* Adjust margin for spacing between items */
 }
 
@@ -182,13 +178,12 @@ foot ul li a {
 /* Media query for mobile devices */
 @media screen and (max-width: 1200px) {
   section {
-  
   text-decoration: none;
-  display: block;
+  display: inline-block;
   text-align: justify;
   padding: 30px; auto;
   margin: 20px auto;
-  max-width: 1000px;
+  max-width: 800px;
   max-height: 100%;
   background-color: #fff;
   border-radius: 5px;
@@ -198,7 +193,7 @@ foot ul li a {
 
 section {
   text-decoration: none;
-  display: block;
+  display: inline-block;
   text-align: justify;
   font-size: 16px;
   padding: 30px; auto;
@@ -213,7 +208,6 @@ section {
 section a {
   display: inline-block;
   text-align: justify;
-  
 }
 
 section h2 {
@@ -222,27 +216,23 @@ section h2 {
 
 #contents {
   text-align: justify;
-  
 }
 
 #contents p {
   text-align: justify;
   justify-content: center;
   align-items: center;
-  
 }
 
 #contents a {
   text-align: justify;
   justify-content: center;
   align-items: center;
-  
   text-decoration: none;
 }
 
 #end {
   text-align: justify;
-  
   background-color: color(srgb 0.929 0.9099 0.869);
   max-width: 800px;
   border-radius: 5px;
