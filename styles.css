@@ -25,9 +25,9 @@ a {
 }
 
 .title img {
-  width: 20%; /* Ensure image doesn't exceed container width */
-  min-width: 300px;
+  width: 300px;
   height: 100px;
+  
 }
 
 .image-gallery {
@@ -85,6 +85,7 @@ div.image-section {
 }
 
 div.image-section img {
+  width: 800px;
   max-height: 100vh;
   max-width: 100%; /* Ensure image doesn't exceed container width */
   height: auto;
