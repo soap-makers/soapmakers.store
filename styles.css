@@ -183,7 +183,7 @@ section {
   margin: 20px auto;
   max-width: 800px;
   max-height: 100%;
-  background-color: #ede8de;;
+  background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   font-size: 16px;
@@ -200,6 +200,7 @@ section h2 {
 #end {
   background-color: #ede8de;
   max-width: 800px;
+  color: #ede8de;
 }
 
 #return-to-top {
