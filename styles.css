@@ -179,11 +179,7 @@ foot ul li a {
 /* Media query for mobile devices */
 @media screen and (max-width: 600px) {
   section {
-    text-align: justify;
-    padding: 30px; auto;
-    margin: 20px auto;
     font-size: 16px;
-    max-width: 100%;
   }
 }
 
