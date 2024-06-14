@@ -130,14 +130,13 @@ footer {
   color: white;
   padding: 20px;
   text-align: center;
-  
   text-decoration: none;
   display: inline-block;
   margin: 0px auto;
 }
 
 footer p {
-  text-align: justify;
+  text-align: center;
   list-style-type: none;
   text-decoration: none;
   display: inline-block; /* Make the list items display inline-block to align within the header */
