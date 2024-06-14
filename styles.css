@@ -169,6 +169,10 @@ foot ul li a {
     max-width: 100%;
     font-size: 16px;
   }
+  #end {
+    color: color(srgb 0.929 0.9099 0.869);
+    background-color: color(srgb 0.929 0.9099 0.869);
+  }
 }
 
 section {
