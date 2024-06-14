@@ -179,6 +179,7 @@ foot ul li a {
 /* Media query for mobile devices */
 @media screen and (max-width: 1000px) {
   section {
+  text-decoration: none;
   display: block;
   text-align: justify;
   font-size: 16px;
@@ -209,8 +210,14 @@ section h2 {
   text-align: center;
 }
 
-#contents  {
-  text-align: center;
+#contents {
+  text-align: justify;
+  font-size: 16px;
+}
+
+#contents a {
+  text-decoration: none;
+  text-align: justify;
   font-size: 16px;
 }
 
