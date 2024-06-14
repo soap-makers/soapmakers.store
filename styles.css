@@ -21,6 +21,17 @@ div.post a:visited {
 }
 
 a {
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  display: inline-block;
+}
+
+p {
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
   display: inline-block;
 }
@@ -216,13 +227,17 @@ section h2 {
 
 #contents p {
   text-align: justify;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
 }
 
 #contents a {
-  text-decoration: none;
   text-align: justify;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
+  text-decoration: none;
 }
 
 #end {
