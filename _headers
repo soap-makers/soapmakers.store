@@ -1,6 +1,7 @@
 /*
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline';
-  X-Content-Type-Options: nosniff
+  Content-Security-Policy: default-src 'self'; connect-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline';
+  Content-Security-Policy: connect-src http://soapmakers.store/; script-src http://soapmakers.store/
+	X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
   Referrer-Policy: no-referrer-when-downgrade
@@ -19,3 +20,4 @@
   Cache-Control: max-age=31536000, public
 	assests/images/product3.webp
   Cache-Control: max-age=31536000, public
+	Cache-Control: max-age=31536000
