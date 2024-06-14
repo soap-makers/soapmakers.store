@@ -168,12 +168,16 @@ foot ul li a {
 /* Media query for mobile devices */
 @media screen and (max-width: 600px) {
   section {
+    font-decoration: none;
+  font-size: 16px;
     max-width: 100%;
     font-size: 16px;
   }
 }
 
 section {
+  font-decoration: none;
+  font-size: 16px;
   padding: 30px; auto;
   margin: 20px auto;
   max-width: 800px;
@@ -181,7 +185,6 @@ section {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  font-size: 16px;
 }
 
 section h2 {
@@ -189,6 +192,8 @@ section h2 {
 }
 
 #contents  {
+  font-decoration: none;
+  font-size: 16px;
   text-align: center;
 }
 
