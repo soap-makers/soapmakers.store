@@ -204,6 +204,8 @@ section h2 {
 }
 
 #end {
+  font-decoration: none;
+  font-size: 16px;
   background-color: color(srgb 0.929 0.9099 0.869);
   max-width: 800px;
   border-radius: 5px;
