@@ -116,6 +116,9 @@ header {
   color: #594c3b;
   padding: 20px;
   text-align: center;
+  display: block;
+  margin: 0px auto;
+  text-decoration: none;
 }
 
 footer {
