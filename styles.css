@@ -28,7 +28,7 @@ a {
   width: 20%; /* Ensure image doesn't exceed container width */
   min-width: 300px;
   height: auto;
-  margin: 20px auto
+  margin: 20px auto;
 }
 
 .image-gallery {
