@@ -7,15 +7,7 @@
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 	assests/images/title.webp
   Cache-Control: max-age=31536000, public
-	assests/images/MM.webp
-  Cache-Control: max-age=31536000, public
 	assests/images/white.webp
   Cache-Control: max-age=31536000, public
 	assests/images/MM3.webp
-  Cache-Control: max-age=31536000, public
-	assests/images/product1.webp
-  Cache-Control: max-age=31536000, public
-	assests/images/product2.webp
-  Cache-Control: max-age=31536000, public
-	assests/images/product3.webp
   Cache-Control: max-age=31536000, public
