@@ -80,7 +80,8 @@ div.image-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: ##ede8de;
+  
 }
 
 div.image-section img {
