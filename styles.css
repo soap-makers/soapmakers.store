@@ -87,6 +87,11 @@ div.image-section img {
   height: auto;
 }
 
+article {
+  font-decoration: none;
+  font-size: 16px;
+}
+
 body {
   font-size: 16px;
   font-family: Arial;
@@ -188,6 +193,7 @@ section {
 }
 
 section h2 {
+  
   text-align: center;
 }
 
