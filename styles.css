@@ -201,9 +201,8 @@ section h2 {
 }
 
 #contents  {
-  padding: 30px; auto;
-  margin: 20px auto;
-  display: block;
+
+  display: inline-block;
   text-align: center;
   font-size: 16px;
 }
