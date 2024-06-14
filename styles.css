@@ -134,7 +134,7 @@ footer {
   margin: 0px auto;
 }
 
-footer p {
+foot p {
   text-align: center;
   margin: 0px auto;
   padding: 0px;
@@ -160,17 +160,19 @@ nav ul li a {
 foot ul {
   text-align: center;
   list-style-type: none;
-  display: block; /* Make the list items display inline-block to align within the header */
+  display: inline-block; /* Make the list items display inline-block to align within the header */
   margin: 0px auto;
   padding: 0px;
 }
 
 foot ul li {
+  text-align: center;
   display: block;
   margin: 0 10px auto; /* Adjust margin for spacing between items */
 }
 
 foot ul li a {
+  text-align: center;
   text-decoration: none;
   color: #ffffff;
 }
