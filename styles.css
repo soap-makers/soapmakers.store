@@ -31,6 +31,7 @@ a {
 }
 
 .image-gallery {
+  max-height: 100vh;
   width: 100%;
   overflow-x: auto;
   white-space: nowrap; /* Ensures images stay in a single line */
@@ -83,6 +84,7 @@ div.image-section {
 }
 
 div.image-section img {
+  max-height: 100vh;
   max-width: 100%; /* Ensure image doesn't exceed container width */
   height: auto;
 }
