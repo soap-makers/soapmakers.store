@@ -18,16 +18,16 @@ p {
   font-size: 16px;
 }
 
+a {
+  font-size: 16px;
+  display: inline-block;
+}
+
 div.post a,
 div.post a:focus,
 div.post a:visited {
   text-decoration: none;
   color: black;
-}
-
-a {
-  font-size: 16px;
-  display: inline-block;
 }
 
 .title img {
@@ -151,6 +151,7 @@ nav ul li a {
 }
 
 foot ul {
+  font-weight: bold;
   list-style-type: none;
   display: inline-block; /* Make the list items display inline-block to align within the header */
   margin: 0px auto;
