@@ -1,6 +1,22 @@
 {
     "@context" : "https://soapmakers.store",
       "@type" : "WebSite",
+    "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Products",
+        "item": "https://soapmakers.store/products.html"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "About",
+        "item": "https://soapmakers.store/about.html"
+      },{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "News"
+      }]
       "name" : "SOAPMAKERS Soap Company",
       "alternateName" : ["SM. Soap CO.", "SM. Soap CO. PTY. LTD.", "SOAPMAKERS", "SOAPMAKERS Soap Company", "SOAPMAKERS Soap Company Proprietary Limited"],
       "url" : "https://soapmakers.store/",
