@@ -4,6 +4,21 @@
       "name" : "SOAPMAKERS Soap Company",
       "alternateName" : ["SM. Soap CO.", "SM. Soap CO. PTY. LTD.", "SOAPMAKERS", "SOAPMAKERS Soap Company", SOAPMAKERS Soap Company Proprietary Limited],
       "url" : "https://soapmakers.store/",
+    "author": "SM. Soap CO.",
+      "image": "assets/images/name.webp",
+      "description": "SOAPMAKERS Soap Company Artisanal Soaps",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "7462",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "recipeIngredient": [
+        "ORGANIC AUSTRALIAN Extra Virgin Olive Oil",
+        "Sodium Hydroxide"
+      ]
+    }
       "potentialAction": {
         "@type": "SearchAction",
         "target": {
