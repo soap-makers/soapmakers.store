@@ -3,15 +3,15 @@ ul {
   text-align: left;
 }
 
-li {
+ul a {
   font-size: 16px;
 }
 
-li a {
+section a {
   font-size: 16px;
 }
 
-li p {
+section p {
   font-size: 16px;
 }
 
