@@ -25,10 +25,13 @@
       "description": "SOAPMAKERS Soap Company Artisanal Soaps",
       "aggregateRating": {
         "@type": "AggregateRating",
+        "name" : "SOAPMAKERS Soap Company,
+        "sameAs" : "https://soapmakers.store"
+        },
         "ratingValue": "4.8",
         "reviewCount": "7462",
         "bestRating": "5",
-        "worstRating": "1"
+        "worstRating": "4"
       },
       "recipeIngredient": [
         "ORGANIC AUSTRALIAN Extra Virgin Olive Oil",
