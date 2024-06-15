@@ -2,7 +2,7 @@
     "@context" : "https://soapmakers.store",
       "@type" : "WebSite",
       "name" : "SOAPMAKERS Soap Company",
-      "alternateName" : "SM. Soap CO.",
+      "alternateName" : ["SM. Soap CO.", "SM. Soap CO. PTY. LTD.", "SOAPMAKERS", "SOAPMAKERS Soap Company", SOAPMAKERS Soap Company Proprietary Limited],
       "url" : "https://soapmakers.store/",
       "potentialAction": {
         "@type": "SearchAction",
@@ -12,7 +12,6 @@
         },
         "query-input": "required name=search_term_string"
       }
-    "name": "SOAPMAKERS Soap Company",
     "short_name": "SM. Soap CO.",
     "icons": [
         {
