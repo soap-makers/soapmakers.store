@@ -92,15 +92,13 @@ div.image-section a {
 
 div.image-section {
   height: auto;
-  max-height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  color: #ede8de;
 }
 
 div.image-section img {
-  max-height: 95vh;
   max-width: 100%; /* Ensure image doesn't exceed container width */
 }
 
