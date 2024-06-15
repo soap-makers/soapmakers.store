@@ -197,7 +197,7 @@ foot ul li a {
 }
 
 @media screen and (max-width: 600px) {
-  #end {
+  section end {
     color: #ede8de;
     background-color: #ede8de;
   }
@@ -230,7 +230,7 @@ section p {
   text-align: center;
 }
 
-#end {
+section end {
   background-color: #ede8de;
   max-width: 800px;
   color: #ede8de;
