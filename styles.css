@@ -96,12 +96,12 @@ div.image-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: ##ede8de;
+  background-color: #ede8de;
   
 }
 
 div.image-section img {
-  max-height: 100%;
+  max-height: 95vh;
   max-width: 100%; /* Ensure image doesn't exceed container width */
 }
 
