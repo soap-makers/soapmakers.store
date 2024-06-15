@@ -1,6 +1,11 @@
 {
     "@context" : "https://soapmakers.store",
       "@type" : "Organization",
+    "image": [
+        "assets/images/name.webp",
+        "assets/images/white.webp",
+        "assets/images/MM.webp"
+       ],
     "@type": "BreadcrumbList",
       "itemListElement": [{
         "@type": "ListItem",
