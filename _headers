@@ -6,13 +6,4 @@
   X-XSS-Protection: 1; mode=block
   Referrer-Policy: no-referrer-when-downgrade
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-	assets/images/title.webp,
-	assets/images/MM.webp, 
-	assets/images/white.webp,
 	Cache-Control: max-age=31536000, public
-	Strict-Transport-Security: max-age=31536000; includeSubDomains; lazy
-	Cache-Control: max-age=31536000
-	assets/images/product1.webp,
-	assets/images/product2.webp, 
-	assets/images/product3.webp,
-	assests/images/MM3.webp
