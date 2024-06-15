@@ -1,6 +1,6 @@
 {
     "@context" : "https://soapmakers.store",
-      "@type" : "WebSite",
+      "@type" : "Organization",
     "@type": "BreadcrumbList",
       "itemListElement": [{
         "@type": "ListItem",
@@ -25,7 +25,7 @@
       "description": "SOAPMAKERS Soap Company Artisanal Soaps",
       "aggregateRating": {
         "@type": "AggregateRating",
-        "name" : "SOAPMAKERS Soap Company,
+        "name" : "SOAPMAKERS Soap Company,"
         "sameAs" : "https://soapmakers.store"
         },
         "ratingValue": "4.8",
