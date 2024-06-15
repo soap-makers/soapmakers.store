@@ -91,7 +91,7 @@ div.image-section a {
 }
 
 div.image-section {
-  height: 100%;
+  height: 100hv;
   display: flex;
   justify-content: center;
   align-items: center;
