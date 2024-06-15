@@ -3,8 +3,9 @@ ul {
   text-align: left;
 }
 
-ul a {
+section li a {
   font-size: 16px;
+  text-decoration: none;
 }
 
 section a {
