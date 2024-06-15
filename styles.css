@@ -176,6 +176,18 @@ foot ul li a {
 }
 
 @media screen and (max-width: 600px) {
+  section p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
   #end {
     color: #ede8de;
     background-color: #ede8de;
@@ -193,8 +205,7 @@ section {
   font-size: 16px;
 }
 
-section a,
-  section p {
+section a {
   font-size: 16px;
   display: inline-block;
 }
