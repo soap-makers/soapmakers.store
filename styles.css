@@ -91,7 +91,7 @@ div.image-section a {
 }
 
 div.image-section {
-  height: auto;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,6 +99,7 @@ div.image-section {
 }
 
 div.image-section img {
+  max-height: 100vh;
   max-width: 100%; /* Ensure image doesn't exceed container width */
 }
 
