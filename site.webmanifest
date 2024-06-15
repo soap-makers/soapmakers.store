@@ -25,6 +25,11 @@
       "name" : "SOAPMAKERS Soap Company",
       "alternateName" : ["SM. Soap CO.", "SM. Soap CO. PTY. LTD.", "SOAPMAKERS", "SOAPMAKERS Soap Company", "SOAPMAKERS Soap Company Proprietary Limited"],
       "url" : "https://soapmakers.store/",
+    
+    "telephone": "+12122459600",
+      "servesHealth": "Soaps",
+      "priceRange": "$$$",
+    
     "author": "SM. Soap CO.",
       "image": "assets/images/name.webp",
       "description": "SOAPMAKERS Soap Company Artisanal Soaps",
