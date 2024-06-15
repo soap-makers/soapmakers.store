@@ -3,6 +3,18 @@ ul {
   text-align: left;
 }
 
+li {
+  font-size: 16px;
+}
+
+li a {
+  font-size: 16px;
+}
+
+li p {
+  font-size: 16px;
+}
+
 h1,
 h2 {
   text-align: center;
