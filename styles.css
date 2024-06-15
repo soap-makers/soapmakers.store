@@ -96,8 +96,7 @@ div.image-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ede8de;
-  
+  background-color: #fff;
 }
 
 div.image-section img {
@@ -192,7 +191,7 @@ foot ul li a {
   p,
   a,
   li,
-  li a{
+  li a {
     font-size: 16px;
   }
 }
