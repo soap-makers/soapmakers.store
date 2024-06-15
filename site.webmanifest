@@ -1,6 +1,19 @@
 {
-    "name": "SOAPMAKERS SOAP CO. PTY. LTD.",
-    "short_name": "SOAPMAKERS SOAP CO.",
+    "@context" : "https://soapmakers.store",
+      "@type" : "WebSite",
+      "name" : "SOAPMAKERS Soap Company",
+      "alternateName" : "SM. Soap CO.",
+      "url" : "https://soapmakers.store/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://query.soapmakers.store/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    "name": "SOAPMAKERS Soap Company",
+    "short_name": "SM. Soap CO.",
     "icons": [
         {
             "src": "android-chrome-192x192.png",
