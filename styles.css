@@ -9,7 +9,7 @@ section li a {
 }
 
 section a {
-  font-size: 16px;
+  display: inline-block;
 }
 
 section p {
@@ -32,7 +32,6 @@ p {
 }
 
 a {
-  font-size: 16px;
   display: inline-block;
 }
 
@@ -49,7 +48,7 @@ div.post a:visited {
 }
 
 .image-gallery {
-  max-height: 100vh;
+  max-height: 100%;
   width: 100%;
   overflow-x: auto;
   white-space: nowrap; /* Ensures images stay in a single line */
@@ -102,7 +101,7 @@ div.image-section {
 }
 
 div.image-section img {
-  max-height: 100vh;
+  max-height: 100%;
   max-width: 100%; /* Ensure image doesn't exceed container width */
 }
 
@@ -190,13 +189,10 @@ foot ul li a {
 }
 
 @media screen and (max-width: 600px) {
-  section p {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  a {
+  p,
+  a,
+  li,
+  li a{
     font-size: 16px;
   }
 }
@@ -220,7 +216,6 @@ section {
 }
 
 section a {
-  font-size: 16px;
   display: inline-block;
 }
 
@@ -230,7 +225,6 @@ section h2 {
 
 section p {
   text-align: justify;
-  font-size: 16px;
 }
 
 #contents {
