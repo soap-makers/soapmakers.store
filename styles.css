@@ -72,11 +72,12 @@ div.image-section a {
 div.image-section {
   height: auto;
   max-height: 100%;
-  max-width: 350px;
-  display: block;
+  max-width: 300px;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   color: #ede8de;
+  
 }
 
 div.image-section img {
@@ -84,7 +85,7 @@ div.image-section img {
   align-items: center;
   max-height: 100%;
   width: auto;
-  max-width: 350px; /* Ensure image doesn't exceed container width */
+  max-width: 400px; /* Ensure image doesn't exceed container width */
 }
 
 body {
@@ -177,6 +178,7 @@ foot ul li a {
 }
 
 section {
+  justify-content: center;
   align-items: center;
   padding: 30px; auto;
   margin: 20px auto;
