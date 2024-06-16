@@ -39,15 +39,16 @@ div.post a:visited {
 }
 
 .image-container {
+  
   display: inline-block;
   width: 300px; /* Adjust the width according to your design */
-  margin-right: 10px; /* Adjust spacing between images */
+  margin-right: 20px; /* Adjust spacing between images */
   vertical-align: top; /* Ensures proper alignment of inline-block elements */
   white-space: normal; /* Allow text to wrap */
 }
 
 .image-container img {
-  width: 350px; /* Ensures images fill the container */
+  width: 100%; /* Ensures images fill the container */
   display: block;
 }
 
@@ -71,7 +72,7 @@ div.image-section a {
 div.image-section {
   height: auto;
   max-height: 100%;
-  max-width: 800px;
+  max-width: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,7 +82,7 @@ div.image-section {
 div.image-section img {
   max-height: 100%;
   width: auto;
-  max-width: 800px; /* Ensure image doesn't exceed container width */
+  max-width: 350px; /* Ensure image doesn't exceed container width */
 }
 
 body {
