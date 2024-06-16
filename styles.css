@@ -26,11 +26,6 @@ h3 {
   text-align: left;
 }
 
-p {
-  text-align: center;
-  font-size: 16px;
-}
-
 a {
   display: inline-block;
 }
@@ -106,7 +101,6 @@ div.image-section img {
 }
 
 body {
-  font-size: 16px;
   font-family: Arial;
   margin: 0px;
   background-color: #f5f5f5;
