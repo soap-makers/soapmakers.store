@@ -41,7 +41,7 @@ div.post a:visited {
 .image-container {
   display: inline-block;
   width: 300px; /* Adjust the width according to your design */
-  margin-right: 30px; /* Adjust spacing between images */
+  margin-right: 10px; /* Adjust spacing between images */
   vertical-align: top; /* Ensures proper alignment of inline-block elements */
   white-space: normal; /* Allow text to wrap */
 }
