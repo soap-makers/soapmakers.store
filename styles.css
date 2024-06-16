@@ -16,14 +16,14 @@ h3 {
 div.post a,
 div.post a:focus,
 div.post a:visited {
+  font-size: 16px;
   text-decoration: none;
   color: black;
-  text-size: 16px;
 }
 
 .title img {
-  width: 100%;
-  height: 100%;
+  max-width: 800px;
+  height: auto;
 }
 
 .image-gallery {
@@ -42,13 +42,13 @@ div.post a:visited {
 .image-container {
   display: inline-block;
   width: 300px; /* Adjust the width according to your design */
-  margin-right: 20px; /* Adjust spacing between images */
+  margin-right: 30px; /* Adjust spacing between images */
   vertical-align: top; /* Ensures proper alignment of inline-block elements */
   white-space: normal; /* Allow text to wrap */
 }
 
 .image-container img {
-  width: 100%; /* Ensures images fill the container */
+  width: 800px; /* Ensures images fill the container */
   display: block;
 }
 
@@ -62,18 +62,17 @@ div.post a:visited {
   text-align: justify;
   color: black;
   text-decoration: none;
-  text-size: 16px;
 }
 
 div.image-section a {
   color: black;
   text-decoration: none;
-  text-size: 16px;
 }
 
 div.image-section {
-  height: 100%;
-  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  max-width: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,8 +81,8 @@ div.image-section {
 
 div.image-section img {
   max-height: 100%;
-  width: 800;
-  max-width: 100vw; /* Ensure image doesn't exceed container width */
+  width: auto
+  max-width: 800px; /* Ensure image doesn't exceed container width */
 }
 
 body {
@@ -164,13 +163,6 @@ foot ul li a {
 @media screen and (max-width: 600px) {
   section {
     max-width: 100%;
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  body {
-    
     font-size: 16px;
   }
 }
