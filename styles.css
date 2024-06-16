@@ -16,13 +16,12 @@ h3 {
 div.post a,
 div.post a:focus,
 div.post a:visited {
-  font-size: 16px;
   text-decoration: none;
   color: black;
 }
 
 .title img {
-  max-width: 800px;
+  max-width: 350px;
   height: auto;
 }
 
@@ -48,7 +47,7 @@ div.post a:visited {
 }
 
 .image-container img {
-  width: 800px; /* Ensures images fill the container */
+  width: 350px; /* Ensures images fill the container */
   display: block;
 }
 
@@ -81,11 +80,12 @@ div.image-section {
 
 div.image-section img {
   max-height: 100%;
-  width: auto
+  width: auto;
   max-width: 800px; /* Ensure image doesn't exceed container width */
 }
 
 body {
+  font-size: 16px;
   font-family: Arial;
   margin: 0px;
   background-color: #f5f5f5;
