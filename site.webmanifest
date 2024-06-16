@@ -3,6 +3,9 @@
     {
       "source": "assets/images/",
       "headers" : [
+        "assets/images/name.webp",
+        "assets/images/white.webp",
+        "assets/images/MM.webp"
         {
           "key" : "Cache-Control",
           "value" : "max-age=2592000, s-maxage=10"
