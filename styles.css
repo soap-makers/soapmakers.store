@@ -12,10 +12,6 @@ section a {
   display: inline-block;
 }
 
-section p {
-  font-size: 16px;
-}
-
 h1,
 h2 {
   text-align: center;
@@ -108,7 +104,6 @@ body {
 }
 
 main {
-  font-size: 16px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -130,6 +125,7 @@ footer {
 }
 
 footer p {
+  text-align: center;
   list-style-type: none;
   text-decoration: none;
   display: inline-block; /* Make the list items display inline-block to align within the header */
@@ -183,11 +179,10 @@ foot ul li a {
 }
 
 @media screen and (max-width: 600px) {
-  p,
-  a,
-  li,
-  li a {
-    font-size: 16px;
+  div.image-section img {
+  max-height: auto;
+  width: 100%;
+  max-width: 100%; /* Ensure image doesn't exceed container width */
   }
 }
 
@@ -206,7 +201,6 @@ section {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  font-size: 16px;
 }
 
 section a {
@@ -215,10 +209,6 @@ section a {
 
 section h2 {
   text-align: center;
-}
-
-section p {
-  text-align: justify;
 }
 
 #contents {
