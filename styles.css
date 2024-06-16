@@ -88,6 +88,8 @@ body {
   margin: 0px;
   background-color: #f5f5f5;
   text-align: justify;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
@@ -155,13 +157,6 @@ foot ul li {
 foot ul li a {
   text-decoration: none;
   color: #ffffff;
-}
-
-/* Media query for mobile devices */
-@media screen and (max-width: 600px) {
-  section {
-    max-width: 100%;
-  }
 }
 
 @media screen and (max-width: 600px) {
