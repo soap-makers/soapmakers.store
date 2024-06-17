@@ -1,3 +1,10 @@
+.wrapper {
+  min-height: 100%;
+  /* Adjust padding to create space between content and footer */
+  padding-bottom: 60px; /* Adjust as per your footer height */
+  box-sizing: border-box;
+}
+
 ul {
   list-style-type: none;
   text-align: left;
