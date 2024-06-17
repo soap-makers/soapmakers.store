@@ -47,7 +47,6 @@ div.post a:visited {
 }
 
 .image-container img {
-  height: 30vw;
   width: 100%; /* Ensures images fill the container */
   display: block;
 }
