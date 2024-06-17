@@ -49,6 +49,7 @@ div.post a:visited {
 .image-container img {
   width: 100%; /* Ensures images fill the container */
   display: block;
+  max-width: 55vw;
 }
 
 .image-container p {
