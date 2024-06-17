@@ -69,9 +69,11 @@ div.image-section a {
 }
 
 div.image-section {
+  align-items: center;
+  justify-content: center;
   height: auto;
   max-height: 100%;
-  max-width: 300px;
+  max-width: none;
   display: flex;
   color: #ede8de;
 }
