@@ -2,8 +2,7 @@ headers_:
   - file: index.html
     headers:
       - '<link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel=\'stylesheet\'">'
-      - Content-Security-Policy: "default-src 'self'; connect-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline';"
-      - Content-Security-Policy: "connect-src http://soapmakers.store/; script-src http://soapmakers.store/"
+      - Content-Security-Policy: "default-src 'self'; connect-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; connect-src http://soapmakers.store/; script-src http://soapmakers.store/"
       - X-Content-Type-Options: "nosniff"
       - X-Frame-Options: "DENY"
       - X-XSS-Protection: "1; mode=block"
