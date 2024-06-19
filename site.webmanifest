@@ -3,9 +3,17 @@
     {
       "source": "assets/images/",
       "headers": [
-        "assets/images/name.webp",
+        "assets/images/title.webp",
         "assets/images/white.webp",
         "assets/images/MM.webp",
+        "assets/images/product1.webp",
+        "assets/images/product2.webp",
+        "assets/images/product3.webp",
+        "styles.css",
+        "site.manifest",
+        "favicon.svg",
+        "favicon.png",
+        "https://www.googletagmanager.com/gtag/js?id=G-85BG3DDM4F"
         {
           "key": "Cache-Control",
           "value": "max-age=2592000, s-maxage=10"
