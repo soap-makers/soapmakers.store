@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
+<caching-config>
+    <headers>
+        <file path="assets/images/name.webp">
+            <header name="Cache-Control" value="max-age=2592000, s-maxage=10, public"/>
+        </file>
+        <file path="assets/images/white.webp">
+            <header name="Cache-Control" value="max-age=2592000, s-maxage=10, public"/>
+        </file>
+        <file path="assets/images/MM.webp">
+            <header name="Cache-Control" value="max-age=2592000, s-maxage=10, public"/>
+        </file>
+    </headers>
+</caching-config>
 <browserconfig>
     <msapplication>
         <tile>
