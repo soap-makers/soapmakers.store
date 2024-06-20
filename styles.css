@@ -1,4 +1,5 @@
 .wrapper {
+  display: none;
   min-height: 100%;
   /* Adjust padding to create space between content and footer */
   padding-bottom: 60px; /* Adjust as per your footer height */
@@ -163,7 +164,7 @@ foot ul li a {
   color: #ffffff;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 00px) {
   section end {
     color: #ede8de;
     background-color: #ede8de;
@@ -175,7 +176,7 @@ section {
   align-items: center;
   padding: 30px; auto;
   margin: 20px auto;
-  max-width: 800px;
+  max-width: 1000px;
   max-height: 100%;
   background-color: #fff;
   border-radius: 5px;
