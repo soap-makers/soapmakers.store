@@ -80,6 +80,7 @@ div.image-section {
 }
 
 div.image-section img {
+  width: 100%;
   max-width: 800px; /* Ensure image doesn't exceed container width */
 }
 
