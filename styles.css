@@ -1,5 +1,4 @@
 .wrapper {
-  
   min-height: 100%;
   /* Adjust padding to create space between content and footer */
   padding-bottom: 60px; /* Adjust as per your footer height */
@@ -84,7 +83,6 @@ div.image-section {
 div.image-section img {
   max-height: 100%;
   width: 100%;
-  max-width: 400px; /* Ensure image doesn't exceed container width */
 }
 
 body {
