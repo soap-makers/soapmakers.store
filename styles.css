@@ -80,8 +80,6 @@ div.image-section {
 }
 
 div.image-section img {
-  max-height: 100%;
-  width: 100%;
   max-width: 800px; /* Ensure image doesn't exceed container width */
 }
 
@@ -112,7 +110,6 @@ footer {
   color: white;
   padding: 20px;
   text-align: center;
-  font-size: 16px;
   text-decoration: none;
 }
 
@@ -123,7 +120,6 @@ footer p {
   display: inline-block; /* Make the list items display inline-block to align within the header */
   margin: 0px auto;
   padding: 0px;
-  font-size: 16px;
 }
 
 nav ul {
