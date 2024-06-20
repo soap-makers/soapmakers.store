@@ -83,6 +83,7 @@ div.image-section {
 div.image-section img {
   max-height: 100%;
   width: 100%;
+  max-width: 800px; /* Ensure image doesn't exceed container width */
 }
 
 body {
