@@ -1,1 +1,251 @@
-565656
+.wrapper {
+  min-height: 100%;
+  /* Adjust padding to create space between content and footer */
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #333;
+}
+        
+h3 {
+  text-align: left;
+}
+
+div.post a,
+div.post a:focus,
+div.post a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.title img {
+  max-width: 350px;
+  height: auto;
+}
+
+.image-gallery {
+  max-height: 100%;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap; /* Ensures images stay in a single line */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+.image-gallery::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+.image-container {
+  display: inline-block;
+  width: 300px; /* Adjust the width according to your design */
+  margin-right: 20px; /* Adjust spacing between images */
+  vertical-align: top; /* Ensures proper alignment of inline-block elements */
+  white-space: normal; /* Allow text to wrap */
+}
+
+.image-container img {
+  width: 100%; /* Ensures images fill the container */
+  display: block;
+}
+
+.image-container p {
+  text-align: justify; /* Adjust as needed */
+  margin-top: 5px; /* Adjust spacing between image and text */
+  width: 100%; /* Make the paragraph width match the image container */
+}
+
+.image-container a {
+  text-align: justify;
+  color: black;
+  text-decoration: none;
+}
+
+div.image-section a {
+  color: black;
+  text-decoration: none;
+}
+
+div.image-section {
+  justify-content: center;
+  display: flex;
+}
+
+div.image-section img {
+  width: 100%;
+  max-width: 800px; /* Ensure image doesn't exceed container width */
+}
+
+body {
+  font-size: 16px;
+  font-family: Arial;
+  margin: 0px;
+  background-color: #f5f5f5;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header {
+  background-color: #ede8de;
+  color: #594c3b;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer p {
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block; /* Make the list items display inline-block to align within the header */
+  margin: 0px auto;
+  padding: 0px;
+}
+
+nav ul {
+  font-weight: bold;
+  list-style-type: none;
+  display: inline-block; /* Make the list items display inline-block to align within the header */
+  margin: 0px auto;
+  padding: 5px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px auto; /* Adjust margin for spacing between items */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #594c3b;
+}
+
+foot ul {
+  font-weight: bold;
+  list-style-type: none;
+  display: inline-block; /* Make the list items display inline-block to align within the header */
+  margin: 0px auto;
+  padding: 0px;
+}
+
+foot ul li {
+  display: inline-block;
+  margin: 0 10px auto; /* Adjust margin for spacing between items */
+}
+
+foot ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 00px) {
+  section end {
+    color: #ede8de;
+    background-color: #ede8de;
+  }
+}
+
+section {
+  justify-content: center;
+  align-items: center;
+  padding: 30px; auto;
+  margin: 20px auto;
+  max-width: 800px;
+  max-height: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  text-align: center;
+}
+
+#contents {
+  text-align: center;
+}
+
+#end {
+  background-color: #ede8de;
+  max-width: 800px;
+  color: #ede8de;
+}
+
+#return-to-top {
+  z-index: 999;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+#return-to-top:hover {
+  background-color: #ede8dc; 
+  opacity: 0.8; 
+}
+
+#return-to-top:visited {
+  background-color: #007bff; 
+  opacity: 0.5; 
+}
+
+#return-to-top:active {
+  background-color: #fff; 
+  opacity: 1; 
+}
+
+.paypalcard-button {
+  display: inline-block;
+  padding: 11px 20px;
+  background-color: #000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  vertical-align: middle;
+}
+
+.paypal-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2F6EB4;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #2F6EB4;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  vertical-align: middle;
+}
